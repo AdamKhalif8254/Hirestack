@@ -300,7 +300,7 @@ export default function HomeClient({ session }: { session: Session | null }) {
           {/* Footer */}
           <footer id="contact" className="relative z-20 bg-gray-900 py-12">
             <div className="container mx-auto px-4">
-              <div className="grid grid-cols-1 gap-8 md:grid-cols-4">
+              <div className="grid grid-cols-1 gap-8 md:grid-cols-3">
                 <div>
                   <h4 className="mb-4 text-xl font-bold">HireStack</h4>
                   <p className="text-gray-400">
@@ -341,43 +341,6 @@ export default function HomeClient({ session }: { session: Session | null }) {
                       >
                         Contact
                       </button>
-                    </li>
-                  </ul>
-                </div>
-                <div>
-                  <h5 className="mb-4 text-lg font-semibold">Resources</h5>
-                  <ul className="space-y-2">
-                    <li>
-                      <a
-                        href="#"
-                        className="text-gray-400 transition-colors hover:text-white"
-                      >
-                        Blog
-                      </a>
-                    </li>
-                    <li>
-                      <a
-                        href="#"
-                        className="text-gray-400 transition-colors hover:text-white"
-                      >
-                        Career Tips
-                      </a>
-                    </li>
-                    <li>
-                      <a
-                        href="#"
-                        className="text-gray-400 transition-colors hover:text-white"
-                      >
-                        FAQ
-                      </a>
-                    </li>
-                    <li>
-                      <a
-                        href="#"
-                        className="text-gray-400 transition-colors hover:text-white"
-                      >
-                        Support
-                      </a>
                     </li>
                   </ul>
                 </div>
