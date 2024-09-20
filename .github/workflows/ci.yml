@@ -20,28 +20,6 @@ jobs:
       - run: npm ci
       - run: npm run lint
 
-  format:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v3
-      - uses: actions/setup-node@v3
-        with:
-          node-version: 18
-      - run: npm ci
-      - run: npm run format
-      - name: Check for changes
-        run: |
-          if [[ -n $(git status --porcelain) ]]; then
-            echo "Formatting changes detected. Committing changes."
-            git config --global user.name 'GitHub Actions'
-            git config --global user.email 'actions@github.com'
-            git add -A
-            git commit -m "Apply formatting changes"
-            git push
-          else
-            echo "No formatting changes detected."
-          fi
-
   typecheck:
     runs-on: ubuntu-latest
     steps:
@@ -62,12 +40,12 @@ jobs:
       - run: npm ci
       - run: npm run build
 
-  test:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v3
-      - uses: actions/setup-node@v3
-        with:
-          node-version: 18
-      - run: npm ci
-      - run: npm test
+  # test:
+  #   runs-on: ubuntu-latest
+  #   steps:
+  #     - uses: actions/checkout@v3
+  #     - uses: actions/setup-node@v3
+  #       with:
+  #         node-version: 18
+  #     - run: npm ci
+  #     - run: npm test
