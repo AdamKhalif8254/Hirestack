@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./public/Logo.svg" alt="HireStack Logo" width="200">
+  <img src="./public/Logo.svg" alt="HireStack Logo" width="100">
 </p>
 
 <h1 align="center">HireStack</h1>
