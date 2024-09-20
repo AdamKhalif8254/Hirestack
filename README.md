@@ -1,6 +1,4 @@
-![HireStack Logo](./public/Logo.svg)
-
-# HireStack
+![HireStack Logo](./public/Logo.svg) # HireStack
 
 HireStack is an innovative hiring platform designed to streamline the recruitment process for both employers and job seekers.
 
