@@ -6,6 +6,8 @@ import {
 } from "next-auth";
 import { type Adapter } from "next-auth/adapters";
 import DiscordProvider from "next-auth/providers/discord";
+import GitHubProvider from "next-auth/providers/github";
+import TwitterProvider from "next-auth/providers/twitter";
 
 import { env } from "~/env";
 import { db } from "~/server/db";
@@ -51,6 +53,15 @@ export const authOptions: NextAuthOptions = {
     DiscordProvider({
       clientId: env.DISCORD_CLIENT_ID,
       clientSecret: env.DISCORD_CLIENT_SECRET,
+    }),
+    GitHubProvider({
+      clientId: env.GITHUB_CLIENT_ID,
+      clientSecret: env.GITHUB_CLIENT_SECRET,
+    }),
+    TwitterProvider({
+      clientId: env.TWITTER_CLIENT_ID,
+      clientSecret: env.TWITTER_CLIENT_SECRET,
+      version: "2.0", // opt-in to Twitter OAuth 2.0
     }),
     /**
      * ...add more providers here.
