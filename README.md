@@ -72,6 +72,16 @@ We welcome contributions! Please see our [Contributing Guide](CONTRIBUTING.md) f
 
 HireStack is released under the [MIT License](LICENSE).
 
+## Authors
+
+HireStack was created and is maintained by:
+
+- Adam
+- Ahmed
+- Abdul Muhaimin
+
+We appreciate their hard work and dedication to this project.
+
 ## Contact
 
 <p align="center">
