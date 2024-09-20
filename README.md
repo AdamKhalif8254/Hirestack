@@ -1,56 +1,72 @@
 <p align="center">
-  <img src="./public/Logo.svg" alt="HireStack Logo">
+  <img src="./public/Logo.svg" alt="HireStack Logo" width="200">
 </p>
 
-# HireStack
+<h1 align="center">HireStack</h1>
 
-HireStack is an innovative hiring platform designed to streamline the recruitment process for both employers and job seekers.
+<p align="center">
+  <strong>Streamline your recruitment process with AI-powered hiring solutions</strong>
+</p>
 
-## Table of Contents
-- [About the Project](#about-the-project)
-- [Key Features](#key-features)
-- [Technology Stack](#technology-stack)
-- [Getting Started](#getting-started)
-- [Contributing](#contributing)
-- [License](#license)
-- [Contact](#contact)
+<p align="center">
+  <a href="#about">About</a> •
+  <a href="#key-features">Key Features</a> •
+  <a href="#tech-stack">Tech Stack</a> •
+  <a href="#getting-started">Getting Started</a> •
+  <a href="#contributing">Contributing</a> •
+  <a href="#license">License</a> •
+  <a href="#contact">Contact</a>
+</p>
 
-## About the Project
+---
+
+## About
 
 HireStack leverages cutting-edge technologies to create a seamless, efficient, and intelligent hiring experience. Our platform aims to revolutionize the way companies find talent and how job seekers discover opportunities.
 
 ## Key Features
 
-- **Smart Matching Algorithm**: Utilizes AI to connect candidates with the most suitable job openings.
-- **Interactive Job Listings**: Engaging and informative job postings that go beyond traditional descriptions.
-- **Skill Assessment Tools**: Built-in features to evaluate candidates' skills relevant to specific roles.
-- **Automated Screening**: Efficiently filter applications based on customizable criteria.
-- **Interview Scheduling**: Integrated calendar system for easy coordination of interviews.
-- **Analytics Dashboard**: Gain insights into your hiring process with comprehensive analytics.
+🧠 **Smart Matching Algorithm**: AI-powered candidate-job matching<br>
+📋 **Interactive Job Listings**: Engaging and informative postings<br>
+🛠️ **Skill Assessment Tools**: Evaluate candidates' relevant skills<br>
+🔍 **Automated Screening**: Efficiently filter applications<br>
+📅 **Interview Scheduling**: Integrated calendar system<br>
+📊 **Analytics Dashboard**: Gain insights into your hiring process
 
-## Technology Stack
+## Tech Stack
 
-HireStack is built using a modern and robust technology stack:
-
-- [Next.js](https://nextjs.org): For server-side rendering and optimal performance.
-- [NextAuth.js](https://next-auth.js.org): Handling authentication with ease and security.
-- [Prisma](https://prisma.io): Type-safe database access and management.
-- [Drizzle](https://orm.drizzle.team): Lightweight and flexible ORM for database operations.
-- [Tailwind CSS](https://tailwindcss.com): Rapidly build custom user interfaces.
-- [tRPC](https://trpc.io): End-to-end typesafe APIs for smooth frontend-backend integration.
+<p align="center">
+  <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white" alt="Next.js">
+  <img src="https://img.shields.io/badge/NextAuth.js-000000?style=for-the-badge&logo=next.js&logoColor=white" alt="NextAuth.js">
+  <img src="https://img.shields.io/badge/Prisma-2D3748?style=for-the-badge&logo=prisma&logoColor=white" alt="Prisma">
+  <img src="https://img.shields.io/badge/Drizzle-000000?style=for-the-badge&logo=drizzle&logoColor=white" alt="Drizzle">
+  <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="Tailwind CSS">
+  <img src="https://img.shields.io/badge/tRPC-2596BE?style=for-the-badge&logo=trpc&logoColor=white" alt="tRPC">
+</p>
 
 ## Getting Started
 
-To get started with HireStack, clone this repository and follow these steps:
-
-1. Install dependencies: `npm install`
-2. Set up your environment variables (see `.env.example`)
-3. Initialize the database: `npm run db:push`
-4. Run the development server: `npm run dev`
+1. Clone the repository
+   ```bash
+   git clone https://github.com/yourusername/hirestack.git
+   ```
+2. Install dependencies
+   ```bash
+   npm install
+   ```
+3. Set up environment variables (see `.env.example`)
+4. Initialize the database
+   ```bash
+   npm run db:push
+   ```
+5. Run the development server
+   ```bash
+   npm run dev
+   ```
 
 ## Contributing
 
-We welcome contributions to HireStack! Please see our [Contributing Guide](CONTRIBUTING.md) for more details on how to get involved.
+We welcome contributions! Please see our [Contributing Guide](CONTRIBUTING.md) for details on how to get involved.
 
 ## License
 
@@ -58,4 +74,11 @@ HireStack is released under the [MIT License](LICENSE).
 
 ## Contact
 
-For any inquiries or support, please reach out to us at support@hirestack.com or join our community on [Discord](https://discord.gg/hirestack).
+<p align="center">
+  <a href="mailto:support@hirestack.com">
+    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email">
+  </a>
+  <a href="https://discord.gg/hirestack">
+    <img src="https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white" alt="Discord">
+  </a>
+</p>
