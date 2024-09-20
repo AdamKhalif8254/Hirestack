@@ -5,7 +5,7 @@
 <h1 align="center">HireStack</h1>
 
 <p align="center">
-  <strong>Streamline your recruitment process with AI-powered hiring solutions</strong>
+  <strong>Your real-time job search companion with an edge</strong>
 </p>
 
 <p align="center">
@@ -22,16 +22,16 @@
 
 ## About
 
-HireStack leverages cutting-edge technologies to create a seamless, efficient, and intelligent hiring experience. Our platform aims to revolutionize the way companies find talent and how job seekers discover opportunities.
+HireStack is designed for IT professionals seeking their next career opportunity. We aggregate job listings from top websites in real-time, providing you with comprehensive information to give you an edge in the hiring process.
 
 ## Key Features
 
-🧠 **Smart Matching Algorithm**: AI-powered candidate-job matching<br>
-📋 **Interactive Job Listings**: Engaging and informative postings<br>
-🛠️ **Skill Assessment Tools**: Evaluate candidates' relevant skills<br>
-🔍 **Automated Screening**: Efficiently filter applications<br>
-📅 **Interview Scheduling**: Integrated calendar system<br>
-📊 **Analytics Dashboard**: Gain insights into your hiring process
+🔍 **Real-time Job Aggregation**: Latest IT job postings from top websites<br>
+📊 **Enhanced Job Insights**: Detailed information to boost your application<br>
+🏷️ **Smart Tagging**: Easy filtering by skills, experience, and more<br>
+📈 **Salary Comparisons**: Make informed decisions about compensation<br>
+🔔 **Custom Alerts**: Get notified about jobs matching your criteria<br>
+📚 **Career Resources**: Tips and guides for IT job seekers
 
 ## Tech Stack
 
