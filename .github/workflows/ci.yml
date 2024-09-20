@@ -2,7 +2,9 @@ name: CI
 
 on:
   push:
-    branches: [ main ]
+    branches:
+      - '**'        # Run on all branches
+      - '!production' # Exclude the production branch
   pull_request:
     branches: [ main ]
 
@@ -45,15 +47,3 @@ jobs:
       
     - name: Build
       run: npm run build
-
-    - name: Debug Environment Variables
-      run: |
-        echo "DATABASE_URL is set: ${{ env.DATABASE_URL != '' }}"
-        echo "NEXTAUTH_SECRET is set: ${{ env.NEXTAUTH_SECRET != '' }}"
-        echo "NEXTAUTH_URL is set: ${{ env.NEXTAUTH_URL != '' }}"
-        echo "DISCORD_CLIENT_ID is set: ${{ env.DISCORD_CLIENT_ID != '' }}"
-        echo "DISCORD_CLIENT_SECRET is set: ${{ env.DISCORD_CLIENT_SECRET != '' }}"
-        echo "GITHUB_CLIENT_ID is set: ${{ env.GITHUB_CLIENT_ID != '' }}"
-        echo "GITHUB_CLIENT_SECRET is set: ${{ env.GITHUB_CLIENT_SECRET != '' }}"
-        echo "TWITTER_CLIENT_ID is set: ${{ env.TWITTER_CLIENT_ID != '' }}"
-        echo "TWITTER_CLIENT_SECRET is set: ${{ env.TWITTER_CLIENT_SECRET != '' }}"
