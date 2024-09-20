@@ -9,6 +9,10 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        environment: [production, preview]
+    environment: ${{ matrix.environment }}
 
     steps:
     - uses: actions/checkout@v3
