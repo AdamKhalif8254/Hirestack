@@ -5,6 +5,10 @@
 <h1 align="center">HireStack</h1>
 
 <p align="center">
+  <a href="https://hirestackjobs.vercel.app/">https://hirestackjobs.vercel.app/</a>
+</p>
+
+<p align="center">
   <strong>Your real-time job search companion with an edge</strong>
 </p>
 
