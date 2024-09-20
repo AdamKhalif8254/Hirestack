@@ -24,6 +24,7 @@ jobs:
       GITHUB_CLIENT_SECRET: ${{ secrets.GITHUB_CLIENT_SECRET }}
       TWITTER_CLIENT_ID: ${{ secrets.TWITTER_CLIENT_ID }}
       TWITTER_CLIENT_SECRET: ${{ secrets.TWITTER_CLIENT_SECRET }}
+      SKIP_ENV_VALIDATION: true
 
     steps:
     - uses: actions/checkout@v3
@@ -31,7 +32,7 @@ jobs:
     - name: Use Node.js
       uses: actions/setup-node@v3
       with:
-        node-version: '18'
+        node-version: '20'
         
     - name: Install dependencies
       run: npm ci
@@ -44,3 +45,15 @@ jobs:
       
     - name: Build
       run: npm run build
+
+    - name: Debug Environment Variables
+      run: |
+        echo "DATABASE_URL is set: ${{ env.DATABASE_URL != '' }}"
+        echo "NEXTAUTH_SECRET is set: ${{ env.NEXTAUTH_SECRET != '' }}"
+        echo "NEXTAUTH_URL is set: ${{ env.NEXTAUTH_URL != '' }}"
+        echo "DISCORD_CLIENT_ID is set: ${{ env.DISCORD_CLIENT_ID != '' }}"
+        echo "DISCORD_CLIENT_SECRET is set: ${{ env.DISCORD_CLIENT_SECRET != '' }}"
+        echo "GITHUB_CLIENT_ID is set: ${{ env.GITHUB_CLIENT_ID != '' }}"
+        echo "GITHUB_CLIENT_SECRET is set: ${{ env.GITHUB_CLIENT_SECRET != '' }}"
+        echo "TWITTER_CLIENT_ID is set: ${{ env.TWITTER_CLIENT_ID != '' }}"
+        echo "TWITTER_CLIENT_SECRET is set: ${{ env.TWITTER_CLIENT_SECRET != '' }}"
