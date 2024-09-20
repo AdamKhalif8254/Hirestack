@@ -121,7 +121,7 @@ export default function HomeClient({ session }: { session: Session | null }) {
       <header className="fixed left-1/2 top-4 z-50 w-11/12 max-w-6xl -translate-x-1/2 transform rounded-full bg-gray-900 bg-opacity-80 px-4 sm:px-8 py-4 shadow-lg backdrop-blur-lg backdrop-filter">
         <div className="flex items-center justify-between">
           <div className="flex items-center space-x-4">
-            <Image src="/Logo.svg" alt="HireStack Logo" width={96} height={96} className="" />
+            <Image src="/Logo.svg" alt="HireStack Logo" width={32} height={32} className="" />
             <h1 className="text-xl sm:text-2xl font-bold">
               <span className="text-blue-400">Hire</span>Stack
             </h1>
