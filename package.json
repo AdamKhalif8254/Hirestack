@@ -15,7 +15,8 @@
     "format:check": "prettier --check .",
     "typecheck": "tsc --noEmit",
     "start": "next start",
-    "test": "jest"
+    "test": "jest",
+    "vercel-env": "vercel env pull .env"
   },
   "dependencies": {
     "@auth/prisma-adapter": "^1.6.0",

@@ -43,7 +43,6 @@ HireStack is designed for IT professionals seeking their next career opportunity
   <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white" alt="Next.js">
   <img src="https://img.shields.io/badge/NextAuth.js-000000?style=for-the-badge&logo=next.js&logoColor=white" alt="NextAuth.js">
   <img src="https://img.shields.io/badge/Prisma-2D3748?style=for-the-badge&logo=prisma&logoColor=white" alt="Prisma">
-  <img src="https://img.shields.io/badge/Drizzle-000000?style=for-the-badge&logo=drizzle&logoColor=white" alt="Drizzle">
   <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="Tailwind CSS">
   <img src="https://img.shields.io/badge/tRPC-2596BE?style=for-the-badge&logo=trpc&logoColor=white" alt="tRPC">
 </p>
@@ -52,18 +51,24 @@ HireStack is designed for IT professionals seeking their next career opportunity
 
 1. Clone the repository
    ```bash
-   git clone https://github.com/yourusername/hirestack.git
+   git clone https://github.com/AdamKhalif8254/Hirestack.git
+   cd Hirestack
    ```
+
 2. Install dependencies
    ```bash
    npm install
    ```
-3. Set up environment variables (see `.env.example`)
-4. Initialize the database
+
+3. Set up environment variables
    ```bash
-   npm run db:push
+   npm install -g vercel
+   vercel login
+   vercel link
+   vercel env pull .env
    ```
-5. Run the development server
+
+4. Run the development server
    ```bash
    npm run dev
    ```
@@ -81,10 +86,9 @@ HireStack is released under the [MIT License](LICENSE).
 HireStack was created and is maintained by:
 
 - Adam Khalif
-- Ahmed
+- Ahmed el farra
 - Abdul Muhaimin
-
-We appreciate their hard work and dedication to this project.
+- Ammar Alzureiqi
 
 ## Contact
 
