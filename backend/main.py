@@ -1,8 +1,9 @@
 import pandas as pd
-import scrape
-import process
-import search
-import db_utils
+
+from utils import scrape
+from utils import db_utils
+from utils import process
+from utils import search
 
 # Scrape job data
 df = scrape.job_scrape(["indeed", "linkedin", "zip_recruiter", "glassdoor"], search_term="Software Engineer", results_wanted=30, hours_old=72, country='Canada', location='Canada')
