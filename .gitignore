@@ -50,5 +50,5 @@ yarn-error.log*
 # backend (add more as needed)
 /backend/node_modules
 /backend/.env
-/backend/env
+/backend/.venv
 /backend/__pycache__

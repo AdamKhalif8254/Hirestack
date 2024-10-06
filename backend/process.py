@@ -1,39 +1,9 @@
-from pymongo import MongoClient
-from pymongo.errors import DuplicateKeyError
 import pandas as pd
 import re
-import numpy as np
-from sklearn.feature_extraction.text import TfidfVectorizer
-from sklearn.metrics.pairwise import cosine_similarity
-from minsearch import Index
 
-def connect_to_mongodb(connection_string, db_name, collection_name):
-    client = MongoClient(connection_string)
-    db = client[db_name]
-    collection = db[collection_name]
-    return client, db, collection
-
-def create_indexes(collection):
-    collection.create_index("Job Title")
-    collection.create_index("City")
-
-def query_by_title(collection, title):
-    return list(collection.find({"title": {"$regex": title, "$options": "i"}}))
-
-def query_by_city(collection, city):
-    return list(collection.find({"city": city}))
-
-def insert_many_jobs(collection, records):
-    return collection.insert_many(records)
-
-def get_unique_locations(collection):
-    return collection.distinct('location')
 
 def trim_columns(df, columns):
     return df[columns]
-
-
-
 
 # Dictionary to map full province names to abbreviations
 province_abbreviations = {
@@ -102,22 +72,3 @@ def process_location(df):
     df[['city', 'province']] = df['location'].apply(parse_location)
     return df
 
-
-# Refresh the in-memory search index
-def refresh_index(collection):
-    # Fetch all job postings from the MongoDB collection
-    jobs = list(collection.find({}, {"_id": 0}))  # Fetch all documents, omit MongoDB's default `_id` field
-
-    # Initialize the search index
-    text_fields = ['title', 'description']
-    keyword_fields = ['location', 'city', 'company', 'job_type', 'industry']  # Adding fields that make sense for keyword matching
-    index = Index(text_fields=text_fields, keyword_fields=keyword_fields)
-
-    # Fit the index with the documents from MongoDB
-    index.fit(jobs)
-    return index
-
-# Perform a search using the in-memory index
-def search_jobs(index, query, filter_dict={}, boost_dict={}, num_results=10):
-    results = index.search(query, filter_dict=filter_dict, boost_dict=boost_dict, num_results=num_results)
-    return results
