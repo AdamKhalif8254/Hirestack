@@ -86,7 +86,7 @@ HireStack is released under the [MIT License](LICENSE).
 HireStack was created and is maintained by:
 
 - Adam Khalif
-- Ahmed el farra
+- Ahmed El farra
 - Abdul Muhaimin
 - Ammar Alzureiqi
 
