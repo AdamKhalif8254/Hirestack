@@ -31,7 +31,7 @@ df = process.trim_columns(df, cols)
 records = df.to_dict('records')
 records = [scrape.convert_dates(record) for record in records]
 
-# print(df.columns)
+print(df.columns)
 # print(df['job_type'].unique())
 
 # Insert the records into MongoDB
