@@ -77,9 +77,6 @@ HireStack is designed for IT professionals seeking their next career opportunity
 
 We welcome contributions! Please see our [Contributing Guide](CONTRIBUTING.md) for details on how to get involved.
 
-## License
-
-HireStack is released under the [MIT License](LICENSE).
 
 ## Authors
 
@@ -88,7 +85,7 @@ HireStack was created and is maintained by:
 - Adam Khalif
 - Ahmed El farra
 - Abdul Muhaimin
-- Ammar Alzureiqi
+- Ammar Alzureiq
 
 ## Contact
 
