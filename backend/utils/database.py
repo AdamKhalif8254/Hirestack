@@ -94,7 +94,7 @@ class Database:
                     }
                 ]
             )
-            print(f"Creating table {self.table_name} in region {region}. Please wait...")
+            print(f"Creating table {self.table_name} in region {self.region}. Please wait...")
             table.wait_until_exists()  # Wait until the table is created
             print(f"Table {self.table_name} created successfully in region {region}.")
             self.table = table
