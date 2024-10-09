@@ -40,5 +40,15 @@ df['city'] = df['city'].fillna(' ')
 print(df.shape)
 print(df['site'])
 
+# Function to insert DataFrame into DynamoDB
+def load_df_to_dynamodb(df, table):
+    with table.batch_writer() as batch:
+        for _, row in df.iterrows():
+            # Convert row to JSON and use Decimal for floats
+            item = json.loads(row.to_json(), parse_float=Decimal)
+            batch.put_item(Item=item)
 
+    print("Data uploaded successfully")
+
+load_df_to_dynamodb(df, table)
 
