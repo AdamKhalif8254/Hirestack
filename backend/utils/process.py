@@ -1,5 +1,6 @@
 import pandas as pd
 import re
+import datetime
 
 
 def trim_columns(df, columns):
@@ -72,3 +73,34 @@ def process_location(df):
     df[['city', 'province']] = df['location'].apply(parse_location)
     return df
 
+# Function to convert dates to ISO format strings in the row
+def convert_dates(record):
+    for key, value in record.items():
+        if isinstance(value, datetime.date):
+            # Convert the date to an ISO string format
+            record[key] = value.isoformat()
+    return record
+
+def extract_core_job_title(job_title):
+    """
+    Extracts the core job title from the full job title string.
+    
+    Args:
+        job_title (str): The full job title.
+    
+    Returns:
+        str: The core job title.
+    """
+    # Core titles to search for (could be expanded based on needs)
+    core_titles = ['developer', 'engineer', 'data scientist', 'designer', 'manager', 'analyst']
+    
+    # Convert to lowercase for easier matching
+    job_title_lower = job_title.lower()
+    
+    # Search for core job titles in the title
+    for core_title in core_titles:
+        if re.search(core_title, job_title_lower):
+            return core_title.capitalize()
+    
+    # If no core title found, return the original job title as fallback
+    return job_title

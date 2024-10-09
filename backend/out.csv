@@ -1,159 +1,5 @@
-id,site,job_url,job_url_direct,title,company,location,job_type,date_posted,interval,min_amount,max_amount,currency,is_remote,job_level,description,company_url,company_url_direct,company_addresses,company_num_employees,logo_photo_url,city,province
-1009479402830,glassdoor,https://www.glassdoor.ca/job-listing/j?jl=1009479402830,,Software Engineer,Morningstar,Toronto,,2024-10-08,yearly,100000.0,132000.0,CAD,False,,"**Our Team**  
-
-Morningstar believes in empowering investors through research, data, design, and technology. Morningstar Direct (https://www.morningstar.com/products/direct) is Morningstar’s flagship software product that helps Asset and Wealth Managers build and manage their portfolios and communicate with their clients. Our team is modernizing the core Direct product using web technologies, cloud-based infrastructure, and a refreshed product strategy. Our core offering is complemented by a variety of reporting, analytical, and artificial intelligence tools. We aim to provide a first-class experience in accessing, analyzing, and reporting on Morningstar research and data. We are deeply inquisitive; we do not take “that’s just the way it’s always been done” or “that’s just best practice” as valid answers and instead seek to fine-tune our product development process for maximum impact. We are empowered professionals who are given problems to solve and not tickets to implement. We value team productivity over individual productivity and this culture of “giving” means we enjoy and highly value collaborating with our teammates.  
-
-  
-
-**About the Role**  
-
-We are looking for a Software Engineer who specializes in full-stack development on modern cloud-based infrastructure to join our team, grow with us, introduce us to new ideas and develop products that empower our users. You will have technical product ownership and responsibility for ensuring process and quality adherence through code reviews, test coverage and overall governance. You will act as the software guardian, owning non-functional requirements, and the quality of the code while addressing technical debt. Every day, you’ll work with team members across disciplines developing products for our clients. You will partner with product owners and designers to understand our domain and create technical solutions that push us forward. You will be a co-owner of the product, responsible for its development and overall quality.
-
- **Job Description**
-
- **Job Responsibilities**
-
-* Build well designed, well-engineered, stable, scalable features and solutions for Morningstar Direct
-* Technical product ownership and responsibility to adhere to established guidelines through peer reviews for design and code, unit test results and deployment process for improving development team productivity.
-* Mentoring and leading other members of the development team.
-* Manage development projects through the whole project life cycle.
-* Enforce good engineering practices like scalable and flexible architectures, modular software design, and good testing practices.
-* Build and maintain a scalable, robust build and deployment system that allows us to quickly, frequently, and safely push changes to production.
-* Apply DevOps practices in area of continuous and automated deployment.
-* Analyze and remediate production issues and build instrumentation and operational readiness into the systems architecture.
-* Solve investors’ problems with technology, understanding market chaos at work and crafting technically appropriate interactive experiences to communicate effectively with individual investors.
-* Be constantly looking for opportunities for improvement, seizing them, and then sharing your findings with others.
-* Be hyper-focused on the stability and quality of the product.
-
- **Qualifications**
-
-* Friendly and enjoys working in a collaborative team with excellent spoken and written communication skills. Humble, honest, and to the point.
-* Bachelor of Science in Computer Science, Engineering, or equivalent experience.
-* Minimum 2 years of hands-on experience in building reactive Single-Page Web Applications.
-* Experience with several of the following
-	+ Javascript application frameworks like Nuxt and Vue
-	+ Infrastructure as Code (IaC) tools like CloudFormation and Terraform
-	+ CI/CD tools like Jenkins, Cloudbees, and Harness
-	+ Building and deploying containerized applications
-	+ Linux/Unix command line tools like Homebrew, AWS CLI, git, npm, yarn, etc.
-* Solid understanding of computer science fundamentals: data structures, algorithms, design patterns.
-
- **Nice to have**
-
-* Experience scaling web-based software applications and services.
-* An understanding of how to protect web applications and services from common security vulnerabilities.
-* Experience with Amazon Web Services technologies like CloudFront, S3, API gateway, ECS, Elastic Search, and ElastiCache
-* Experience with other modern programming languages like C#, Java, Python, etc.
-* Experience building and maintaining automated continuous deployment pipelines
-* Experience building and maintaining automated testing tools
-
-  
-
-
-100\_MstarResCanad Morningstar Research, Inc. (Canada) Legal Entity
-Morningstar’s hybrid work environment gives you the opportunity to work remotely and collaborate in-person each week. We’ve found that we’re at our best when we’re purposely together on a regular basis, at least three days each week. A range of other benefits are also available to enhance flexibility as needs change. No matter where you are, you’ll have tools and resources to engage meaningfully with your global colleagues.",https://www.glassdoor.ca/Overview/W-EI_IE3299.htm,,,,https://media.glassdoor.com/sql/3299/morningstar-squareLogo-1625235925002.png,Toronto,ON
-1009478784797,glassdoor,https://www.glassdoor.ca/job-listing/j?jl=1009478784797,,Analyste automatisation de tests Tosca / Tosca Test automation engineer,Procom,,,2024-10-08,,,,,True,,"**Ingénieur d'automatisation de test Tosca**
-
-
-Au nom de notre client dans le secteur du conseil, Procom est à la recherche d'un ingénieur d 'automatisation de test Tosca
-
-
-**Ingénieur d'automatisation des tests Tosca - Description du poste**
-
-
-* Nous recherchons un ingénieur expérimenté en automatisation des tests Tosca pour rejoindre notre équipe
-
-
-* Ce rôle est idéal pour quelqu'un avec une solide expérience dans l'automatisation des tests et une passion pour assurer la qualité des logiciels
-
-
-* En tant que professionnel de niveau intermédiaire, vous serez responsable de la conception, de la création et de l'exécution de tests automatisés à l'aide de Tricentis Tosca, en mettant l'accent sur les applications SAP et les plates-formes Web
-
-
-* Ce poste offre la flexibilité du travail à distance, avec une préférence d'emplacement pour Valcourt, Québec, Canada
-
-
-**Ingénieur d'automatisation des tests Tosca - Compétences obligatoires**
-
-
-* Plus de 5 ans d'expérience pratique dans l'industrie des tests avec une solide connaissance des méthodologies STLC, Waterfall et Agile, des tests d'API et de l'automatisation des tests
-
-
-* Plus de 3 ans d'expérience dans le développement de tests utilisant Tosca sur SAP S4, SAP ECC ou des applications Web
-
-
-* Solide compréhension des modules SAP Paysage et fabrication
-
-
-* Expérience de l'analyse des exigences, de l'identification et de la création de scénarios d'essai / cas de test, et de l'identification des lacunes dans les exigences
-
-
-* Expérience dans l'identification de la portée du test de régression en fonction des changements apportés aux exigences
-
-
-* Expérience dans l'exécution de tests pour toutes les phases des tests avec une connaissance pratique des outils de gestion des tests tels que qTest, HP ALM, Jira
-
-
-* Capacité de travailler de façon autonome, de rendre compte des progrès et de suivre les problèmes liés à la clôture
-
-
-* Solides compétences analytiques, souci du détail et compétences en résolution de problèmes
-
-
-* Compétences exceptionnelles en communication
-
-
-**Ingénieur en automatisation des tests Tosca - Compétences préférées**
-
-
-* Attitude positive à l'égard de l'acquisition d'une solide connaissance des processus d'affaires de bout en bout
-
-
-* Capacité à travailler efficacement dans un environnement d'équipe, en collaborant avec des coéquipiers, des développeurs et d'autres parties prenantes
-
-
-* Adaptabilité pour suivre les technologies émergentes, les mises à jour logicielles et les nouvelles méthodes de test
-
-
-**Ingénieur d'automatisation des tests Tosca - Date de début de l'affectation**
-
-
-DÈS QUE POSSIBLE – 8 mois pour commencer
-
-
-**Ingénieur d'automatisation des tests Tosca - Emplacement de l'affectation**
-
-
-Montréal, QC – Travailler à distance  
-
-  
-
-  
-
-**Tosca Test Automation Engineer** On behalf of our client in the Consulting Sector, Procom is looking for a Tosca Test Automation Engineer **Tosca Test Automation Engineer** **– Job Description**
-* We are seeking an experienced Tosca Test Automation Engineer to join our team
-* This role is ideal for someone with a strong background in test automation and a passion for ensuring software quality
-* As an intermediate-level professional, you will be responsible for designing, building, and executing automated tests using Tricentis Tosca, with a focus on SAP applications and web platforms
-* This position offers the flexibility of remote work, with a location preference for Valcourt, Quebec, Canada
-
- **Tosca Test Automation Engineer** **– Mandatory Skills**
-* 5+ years of hands-on experience in the testing industry with a strong knowledge of STLC, Waterfall and Agile methodologies, API Testing, and Test Automation
-* 3+ years of experience in developing tests using Tosca on SAP S4, SAP ECC, or Web Applications
-* Strong understanding of SAP Landscape and Manufacturing modules
-* Experience in Analyzing Requirements, Identifying and Building Test Scenarios/Test Cases, and Identifying gaps in Requirements
-* Experience in Identifying Regression Test Scope based on requirements changes
-* Experience in Test Execution for all phases of testing with working knowledge of Test Management Tools like qTest, HP ALM, Jira
-* Capability to work independently, report progress, and follow up issues to closure
-* Strong analytical skills, attention to detail, and problem-solving skills
-* Exceptional communication skills
-
- **Tosca Test Automation Engineer** **– Preferred Skills**
-* Positive attitude towards building a strong knowledge of End to End business processes
-* Ability to work effectively in a team environment, collaborating with teammates, developers, and other stakeholders
-* Adaptability to keep up with emerging technologies, software updates, and new testing methods
-
- **Tosca Test Automation Engineer** **– Assignment Start Date** ASAP – 8 months to start **Tosca Test Automation Engineer** **– Assignment Location** Montreal, QC – Work Remotely",https://www.glassdoor.ca/Overview/W-EI_IE351793.htm,,,,https://media.glassdoor.com/sql/351793/procom-squarelogo.png,,
-1009478793768,glassdoor,https://www.glassdoor.ca/job-listing/j?jl=1009478793768,,Software Engineer,Level Access,Toronto,,2024-10-08,,,,,False,,"Looking for a Software Engineering role where you can write great code AND make a difference to the world? Level Access helps companies design and enhance their digital systems - including websites, web applications, software, and hardware - so they are usable by people with disabilities. We are looking for engineering talent to:
+id,site,job_url,job_url_direct,title,company,location,job_type,date_posted,interval,min_amount,max_amount,currency,is_remote,description,company_url,company_url_direct,company_addresses,company_num_employees,logo_photo_url,city,province
+1009478793768,glassdoor,https://www.glassdoor.ca/job-listing/j?jl=1009478793768,,Software Engineer,Level Access,Toronto,,2024-10-08,,,,,False,"Looking for a Software Engineering role where you can write great code AND make a difference to the world? Level Access helps companies design and enhance their digital systems - including websites, web applications, software, and hardware - so they are usable by people with disabilities. We are looking for engineering talent to:
 
   
 
@@ -209,49 +55,7 @@ Salary is commensurate with experience. This is a full-time, salaried position w
 
 
 Level Access is committed to workforce diversity. Equal Opportunity Employer. Copyright 2024, Level Access. All rights reserved.",https://www.glassdoor.ca/Overview/W-EI_IE470250.htm,,,,https://media.glassdoor.com/sql/470250/ssb-bart-group-squarelogo-1510241498672.png,Toronto,ON
-1009477952726,glassdoor,https://www.glassdoor.ca/job-listing/j?jl=1009477952726,,Sr. DevOps Engineer - Big Data,ISG Search Inc,Toronto,,2024-10-08,yearly,110176.0,213286.0,CAD,False,,"Sr. DevOps Engineer - Big Data  
-
-  
-
-Must Have:  
-
-  
-
-* 3+ years of public cloud experience (GCP [preferred], Azure, AWS)
-* Prior experience specifically in SRE / DevOps, Infrastructure Engineering, and Systems Engineering required
-* Has knowledge of a full stack system and can jump into troubleshoot and diagnose issues in the environment.
-* Very strong experience with Linux as an administrator and operator
-* Strong background with Infrastructure as Code (Terraform)
-* Strong background in configuration management with frameworks such as Chef, Salt, or Ansible
-
-
-Nice to Have:  
-
-  
-
-* Proficiency with the following programming languages Golang, Python and shell scripting to automate tasks
-* Familiarity building and supporting Big Data pipelines using Kafka, BigQuery, Dataflow
-* Proficient at supporting container platforms and container orchestration tools such as Docker and Kubernetes
-* BS or MS in Computer Science, a related field, or equivalent professional experience
-
-
-Our client is…  
-
-  
-
-* A global full-service digital consultancy firm. Their global team is dedicated to delivering seamlessly integrated strategies, immersive user experiences, cross-platform development, deployment, training, and ongoing support. They have a results-focused approach which allows them to understand the client needs, shape digital strategies, and forge a path to deliver business success.
-
-
-Responsibilities:  
-
-  
-
-* Write automation code for provisioning and operating infrastructure at scale
-* Identify and drive opportunities to improve automation for code deployment, management, and visibility of application services
-* Develop tools and framework to automate operational tasks, deployment of machines, services, applications
-* Work with big data technologies to build and support data pipelines and streaming analytics
-* Work with development teams to integrate deployments with configuration management frameworks",https://www.glassdoor.ca/Overview/W-EI_IE452639.htm,,,,https://media.glassdoor.com/sql/452639/isgsearch-squareLogo-1618580307483.png,Toronto,ON
-1009477525373,glassdoor,https://www.glassdoor.ca/job-listing/j?jl=1009477525373,,Software Engineer II,Microsoft,Vancouver,,2024-10-07,yearly,83600.0,159600.0,CAD,False,,"Interested in pushing the envelope on cloud-scale distributed system technology? Want to be part of a team building rock-solid platform with high availability and reliability guarantees for billing data? Come join us on this exciting journey!  
+1009477525373,glassdoor,https://www.glassdoor.ca/job-listing/j?jl=1009477525373,,Software Engineer II,Microsoft,Vancouver,,2024-10-07,yearly,83600.0,159600.0,CAD,False,"Interested in pushing the envelope on cloud-scale distributed system technology? Want to be part of a team building rock-solid platform with high availability and reliability guarantees for billing data? Come join us on this exciting journey!  
 
 Microsoft’s Azure Data engineering team is leading the transformation of analytics in the world of data with products like databases, data integration, big data analytics, messaging & real-time analytics, and business intelligence. The products our portfolio include Microsoft Fabric, Azure SQL DB, Azure Cosmos DB, Azure PostgreSQL, Azure Data Factory, Azure Synapse Analytics, Azure Service Bus, Azure Event Grid, and Power BI. Our mission is to build the data platform for the age of AI, powering a new class of data-first applications and driving a data culture.  
 
@@ -310,334 +114,603 @@ Microsoft will accept applications for the role until October 21, 2024.
 #azureusagebilling
 #oro
 Microsoft is an equal opportunity employer. Consistent with applicable law, all qualified applicants will receive consideration for employment without regard to age, ancestry, citizenship, color, family or medical care leave, gender identity or expression, genetic information, immigration status, marital status, medical condition, national origin, physical or mental disability, political affiliation, protected veteran or military status, race, ethnicity, religion, sex (including pregnancy), sexual orientation, or any other characteristic protected by applicable local laws, regulations and ordinances. If you need assistance and/or a reasonable accommodation due to a disability during the application process, read more about requesting accommodations.",https://www.glassdoor.ca/Overview/W-EI_IE1651.htm,,,,https://media.glassdoor.com/sql/1651/microsoft-squarelogo-1479856042252.png,Vancouver,BC
-62ffbab12a718f9b,indeed,https://ca.indeed.com/viewjob?jk=62ffbab12a718f9b,https://boards.greenhouse.io/vidyard/jobs/6316602,"Software Development Manager, AI Avatars",VidYard,"Remote, CA",,2024-10-08,,,,,True,,"Vidyard is the video platform that's built for business. Sales reps, marketers, and corporate communicators use Vidyard to record and share videos that grab attention and deliver their message in a personal, impactful way. It's the video tool of choice for Microsoft, LinkedIn, and thousands of other companies. We're passionate about elevating our customers, our teammates, our communities, and ourselves.
-
-
-**About the Role**
-------------------
-
-
-
-Vidyard is looking for a **Software Development Manager** to join our **Nova** team, a pivotal force behind our cutting-edge **AI Avatar** feature and experimental functionalities. Reporting to the **VP of Engineering**, you will be responsible for guiding and supporting the team responsible for our critical AI Avatar and video sharing platform while maintaining excellent relationships and communicating effectively with all stakeholders. Through your technical coaching and guidance, you will create a supportive and challenging environment for your team to thrive, and participate in broader initiatives to help level up our engineering team as a whole.  
+1009477952724,glassdoor,https://www.glassdoor.ca/job-listing/j?jl=1009477952724,,Full-Stack Engineer,ISG Search Inc,Toronto,,2024-10-07,yearly,73071.0,144040.0,CAD,False,"Full-Stack Engineer  
 
   
 
-This position is available to candidates located in **Canada.**
-
-
-**About the Team**
-------------------
-
-
-
-Our engineering team consists of over 50 developers across multiple product streams. Each team owns a key portion of our experience. We are passionate about creating awesome products and making Vidyard an amazing place to grow and ship.  
+Must Have:  
 
   
 
-Our Nova Team is composed of five developers, a designer, a product manager, and a software development manager. We are dedicated to creating and enhancing Vidyard’s AI Avatar feature, continually improving and expanding its functionality. Additionally, we are focused on implementing more experimental features into our product in the future.
+* Experienced in developing frontends using web technologies such as HTML 5, JavaScript, CSS, React.js & UI frameworks
+* Experience in programming with Node.js
+* 2+ years of experience in building scalable RESTful web services
 
 
-**What You’ll Work On:**
-------------------------
-
-
-* Growing and developing an incredible team of hardworking and motivated developers with high expectations around individual ownership and impact.
-* Ensuring the delivery of team projects and outcomes to drive forward business goals.
-* Developing a healthy and collaborative culture that embodies Vidyard's values.
-* Partnering with other leaders and the team to craft technical and product strategy.
-* Collaborating across disciplines and building customer empathy to make an outsized impact.
-* Level up our Engineering department and grow alongside your peers.
-
-**As a Software Development Manager You Can Expect to:**
---------------------------------------------------------
-
-
-* Discover new opportunities and deliver them to thousands of customers.
-* Refine your team’s charter and direction to maximize Vidyard’s growth.
-* Foster strong cross-functional business and technical decisions, with Product Managers and Designers.
-* Influence broad and impactful decisions.
-* Share wins and celebrate success throughout the company.
-* Unblock your team and eliminate the root cause.
-* Take chances, and learn from setbacks alongside your leader, peers and team.
-
-**What You’ll Bring to this Role and Your New Team:**
------------------------------------------------------
-
-
-* 2+ years experience leading a development team in a cross-functional environment
-* 5+ years of functional experience in software development, SaaS experience considered a plus.
-* Proven track record of delivering great solutions to complex problems while balancing technical and product concerns.
-* Have effectively hired, onboarded, and managed a team of developers reporting to you.
-* You love mentoring and nurturing developers, helping them be the best they can be.
-* Experience fostering a culture of safety, inclusion, and belonging on a team, resulting in high levels of engagement and results.
-* You follow through on your commitments, overcome blockers, navigate disagreements and take responsibility for your work and your team's work.
-* You are comfortable in technical conversations, and supporting your team as they explore tradeoffs and make technical decisions.
-* An interest in or working experience within Artificial Intelligence would be considered an asset.
-
-**Our Tech Stack:**
--------------------
-
-
-* Managers at Vidyard come from technical backgrounds but may be unfamiliar with the technologies our teams use daily.
-* We primarily use Ruby on Rails, Node.js, Vue.js, React, MySQL and AWS. Experience with some of these is a plus, experience with all of them is not necessary.
-
-
-Job descriptions can be overwhelming. At Vidyard we are motivated to **drive change together** and deeply value the unique experiences, abilities and opinions you possess. We value candidates who **own it,** and if you’re **relentlessly resourceful** too, you might be exactly who we are looking for!
-
-
-
-As we also value **user obsession**, we prioritize our users, customers and community so you can expect to hear from our team even if you are not selected to move forward.
-
-
-**What You’ll Love about Vidyard:**
------------------------------------
-
-
-* Competitive pay
-* Comprehensive, flexible benefits on day one
-* Wellness allowance to spend on what's important to you
-* Flexible hours + unlimited vacation + programs to support travel while working, enabling you to live your best life
-* Access to Inkblot, a digital mental health platform + $1,500/person/year for mental health coverage
-* Allowance to support your ongoing growth and development
-* Parental leave top-up
-* Paid volunteer hours
-* Employee resource groups to empower and drive change at Vidyard and in our communities
-* RRSP match
-* Stock options
-* Flexible holiday program
-* Home office stipend
-* Flexibility to work in the place that brings out your best: whether you thrive in the comfort of your home office, or are local to, and prefer the energy of our collaboration space in Kitchener, Ontario, Canada, there is flexibility for all. Although we default to remote-first there will be occasional in-person meetings/events purposefully designed for connection and collaboration.
-
-
-*Vidyard is an equal opportunity employer. Applicants who require reasonable accommodation to complete the application and/or interview process should notify us at* *recruitment@vidyard.com*. *Unsolicited resumes from Agencies will not be accepted.*",https://ca.indeed.com/cmp/Vidyard,https://www.vidyard.com,Kitchener,51 to 200,https://d2q79iu7y748jz.cloudfront.net/s/_squarelogo/256x256/74b075c0493fdf1561f3a77014d828d8,Remote,CA
-649cfd084199e66c,indeed,https://ca.indeed.com/viewjob?jk=649cfd084199e66c,https://jobs-galaxe.icims.com/jobs/13046/job?utm_source=indeed_integration&iis=Job%20Board&iisn=Indeed&indeed-apply-token=73a2d2b2a8d6d5c0a62696875eaebd669103652d3f0c2cd5445d3e66b1592b0f,Senior .NET Developer,GalaxE.Solutions,"Toronto, ON, CA",,2024-10-08,,,,,True,,"What You Will Do:
-* Experience in converting requirements into technical document.
-* Development of applications/API and testing of application.
-* Maintaining code standard and version control of various projects.
-* Delegate project tasks based on project members' individual strengths, skill sets and experience levels.
-* Writing reusable, testable, and efficient code.
-* Design and implementation of low-latency, high-availability, and performant applications.
-
-
-Skills and Experience You Will Need:
-
-Required:* 7+ years of proven experience as a .NET Developer or in a similar role.
-* Proficiency in Visual Studio, C#, ASP.NET, MVC, .NET Framework 4.8, .NET Core, NPM, NuGet, and unit testing frameworks.
-* Strong knowledge of client-side programming with Angular, jQuery, and JavaScript.
-* Familiarity with responsive application UI frameworks such as Bootstrap and Material UI.
-* Basic understanding of version control systems, including Microsoft TFS, GIT, and Bitbucket.
-* Experience with XML and XSLT.
-* Good understanding of domain and product knowledge.
-
-
-Desired:
-
-* Experience in VBA Macros programming.
-* Experience with automated builds and tests (e.g. Jenkins, Maven).
-* Knowledge of performance and load testing tools (e.g. JMeter, Gatling, Gauge) and strategies.
+Nice to Have:  
 
   
 
-
-Who We Are:
-
-GalaxE, now Endava, is a professional IT services firm that specializes in platform-driven solutions and the use of automation to achieve enterprise business transformation and mission-critical change for some of the largest companies in the world. Using our proprietary solution set, **GxFource®,** we apply machine learning techniques and predictive analytics tools as part of a broad artificial intelligence strategy that provides effective impact and data-driven business transformation.  
-
-Since its founding, GalaxE has been dedicated to advancing the benefits of technology. Recently, we have joined forces with Endava, to offer our employees global exposure and enhanced opportunities. As we continue that legacy and look to the future, a focus on business enablement through agile, cost-efficient, and effective integration of people, process, and technology anchors our success. We revolutionize change in the costs of doing business that transform companies and their ability to leap beyond the competition.  
-
-We value people and are committed to diversity and inclusion where our employees are made to feel comfortable and are encouraged to be authentic.  
-
-We are always looking for passionate, entrepreneurial-minded innovators and disrupters; game-changers that take ownership of the work they produce and bring it each and every day. Working with like-minded team members you will get a chance to discover, develop, and use cutting-edge technologies to transform the way we deliver creative business solutions.  
-
-Sound like you? Join us and find out for yourself what it means for you, and your career, to be part of the GalaxE team. Let’s build something, together.* *Equal Opportunity Employer/Veterans/Disabled*
-
-*\*\* Pay is based on several factors including market location and may vary depending on actual job-related knowledge, skills, and experience.* **Physical Requirements:*** Prolonged periods of remaining stationary at a desk and working on a computer
-* Must be able to lift to 15 lbs., as needed
-* Must be able to work on-site (corporate/client offices), as needed (not applicable for 100% remote roles)
-* Occasionally required to bend, kneel, crouch, and reach overhead.
-* Hand-eye coordination necessary to operate computers and various pieces of office equipment.
-* Specific vision abilities required include close vision, the ability to tolerate fluorescent lighting, and the ability to adjust focus.
+* a demonstrated ability to pickup new programming languages a big plus
+* Online portfolio (public github or similar) is a plus
 
 
-Employees must be able to perform the physical requirements of the position satisfactorily and, if requested, reasonable accommodations will be made to enable employees requiring accommodations to perform the essential functions of their jobs, absent undue hardship.  
-
-For more information, please visit https://info.endava.com/galaxe-has-joined-endava",https://ca.indeed.com/cmp/Galaxe.solutions,http://www.galaxesolutions.com,"Somerset, NJ","1,001 to 5,000",,Toronto,ON
-8654fbf36b66865f,indeed,https://ca.indeed.com/viewjob?jk=8654fbf36b66865f,https://careers-kinaxis.icims.com/jobs/32130/job?utm_source=indeed_integration&iis=Job%20Board&iisn=Indeed&indeed-apply-token=73a2d2b2a8d6d5c0a62696875eaebd669103652d3f0c2cd5445d3e66b1592b0f,Senior Full Stack Engineer,Kinaxis,"Ottawa, ON, CA",fulltime,2024-10-08,,,,,False,,"About Kinaxis:
-**About Kinaxis**
------------------
-
-
-Elevate your career journey by embracing a new challenge with Kinaxis. We are experts in tech, but it’s really our people who give us passion to always seek ways to do things better. As such, we’re serious about your career growth and professional development, because *People matter* at Kinaxis.  
-
-In 1984, we started out as a team of three engineers. Today, we have grown to become a global organization with over 2000 employees around the world, with a brand-new HQ based in Kanata North in Ottawa. As one of Canada’s Top Employers, we are proud to work with our customers and employees towards solving some of the biggest challenges facing supply chains today.  
-
-At Kinaxis, we power the world’s supply chains to help preserve the planet’s resources and enrich the human experience. As a global leader in end-to-end supply chain management, we enable supply chain excellence for all industries, with more than 40,000 users in over 100 countries. We are expanding our team as we continue to innovate and revolutionize how we support our customers.
-About the team:
-**Location**
-Our office in Ottawa, Canada**About the team**
-------------------
-
-
-The Front End Technology team consists of collaborative, high-performing engineers. The team’s primary mandate is to build out a modern web client that will ultimately replace our existing front end. We build user-friendly features to help our users visualize their supply chains, empowering them to make informed decisions to resolve their challenges effectively. Performance is a top priority as we need to handle our customers’ large complex datasets efficiently. We have designed our code architecture to be robust and easily maintained, while supporting a large team of engineers.
-
-In this role, you will develop web application features using a variety of technologies (TypeScript, React, C#) that will bring the power of our software to an expanding user community.
-About the role:
-**What you will do**
---------------------
-
-* Develop high quality features with a focus on exceptional user experience and performance
-* Plan and implement new automated tests
-* Build prototypes and conduct design investigations to clarify requirements and resolve technical uncertainty
-* Collaborate with a team of skilled engineers and product designers
-* Innovate with Generative AI and new technologies
-
-**Technologies we use**
------------------------
-
-* TypeScript, React
-* Jest, TestCafe
-* C#, .NET Core
-* GoJS, Highcharts
-
-**What we are looking for**
----------------------------
-
-* 5+ years experience developing complex, enterprise-grade web applications
-* Post-secondary degree in Computer Science (or related)
-* Strong advocacy for product quality and building highly maintainable software
-* Experience with at least one front end framework or library (React, Vue, Angular, etc)
-* Experience developing reliable, efficient, and scalable APIs
-
-
-**#Senior****#LI-IS1**
-Why join Kinaxis?:
-**Work With Impact:** Our platform directly helps companies power the world’s supply chains. We see the results of what we do out in the world every day—when we see store shelves stocked, when medications are available for our loved ones, and so much more. **Work with Fortune 500 Brands:** Companies across industries trust us to help them take control of their integrated business planning and digital supply chain. Some of our customers include Lockheed Martin, Yamaha, P&G, Honda, and more. **Social Responsibility at Kinaxis:** Our Diversity, Equity, and Inclusion Committee weighs in on hiring practices, talent assessment training materials, and mandatory training on unconscious bias and inclusion fundamentals. Sustainability is key to what we do and we’re committed to net-zero operations strategy for the long term. We are involved in our communities and support causes where we can make the most impact.
-
-*People matter* at Kinaxis and these are some of the perks and benefits we created for our team:  
-
-* Flexible vacation and Kinaxis Days (company-wide day off on the last Friday of every month)
-* Flexible work options
-* Physical and mental well-being programs
-* Regularly scheduled virtual fitness classes
-* Mentorship programs and training and career development
-* Recognition programs and referral rewards
-* Hackathons
+Our client is…  
 
   
 
-For more information, visit the Kinaxis web site at www.kinaxis.com or the company’s blog at http://blog.kinaxis.com. Kinaxis strongly encourages diverse candidates to apply to our welcoming community. We strive to make our website and application process accessible to any and all users. If you would like to contact us regarding the accessibility of our website or need assistance completing the application process, please contact us at recruitmentprograms@kinaxis.com. This contact information is for accessibility requests only and cannot be used to inquire about the status of applications.
-
-*Kinaxis is committed to ensuring a fair and transparent recruitment process. We use artificial intelligence (AI) tools in the initial step of the recruitment process to compare submitted resumes against the job description, to identify candidates whose education, experience and skills most closely match the requirements of the role. After the initial screening, all subsequent decisions regarding your application, including final selection, are made by our human recruitment team. AI does not make any final hiring decisions.*",https://ca.indeed.com/cmp/Kinaxis,https://www.kinaxis.com/en,"Kanata, ON","1,001 to 5,000",https://d2q79iu7y748jz.cloudfront.net/s/_squarelogo/256x256/9f2342bd2c0f4c1b1035a3f87b2d24d8,Ottawa,ON
-becea8de61adbfa5,indeed,https://ca.indeed.com/viewjob?jk=becea8de61adbfa5,https://grnh.se/e65cc6a62us,"Senior Software Engineer, Frontend - Prime",BitGo,"Toronto, ON, CA",,2024-10-08,,,,,False,,"We are searching for a Senior Frontend Engineer. BitGo processes a significant amount of cryptocurrency transactions so we need to ensure the delivery of a high quality software and platform. Our integrated platforms interact with a number of exchanges, agencies, and governments around the world, and we use the best technology the industry offers to build them.
+* A global full-service digital consultancy firm. Their global team is dedicated to delivering seamlessly integrated strategies, immersive user experiences, cross-platform development, deployment, training, and ongoing support. They have a results-focused approach which allows them to understand the client needs, shape digital strategies, and forge a path to deliver business success.
 
 
-#### **Responsibilities:**
-
-
-* Collaborate closely with design and product managers to plan and develop new UIs for upcoming initiatives
-* Improve existing UI functionality on a variety of products
-* Build reusable code for future use
-* Codebase health improvements
-* Cross team communications with stakeholders to understand implementation requirements and limitations
-* Provide mentorship to peers in the broader engineering team through code reviews and education on best practices
-* Provide maintenance support and enhance performance to existing applications
-
-#### **Skills & Experience:**
-
-
-
-We are looking for teammates who share and practice our values: open communication, transparency, taking ownership, and a high level of craftsmanship. We are looking for coworkers who share our vision and mission: deliver trust in digital assets.
-
-
-#### **Required:**
-
-
-* At least 5 years of frontend software engineering experience
-* Strong experience with React
-* Advanced knowledge of JavaScript, CSS and HTML
-* Experience working with modern JavaScript frameworks
-* Experience working with Node.js and Express applications
-* Experience working with design systems
-* Experience with unit, Integration and end-to-end testing
-* Ability to work independently in a fast-paced environment
-
-#### **Nice to have:**
-
-
-* Understanding of and strong interest in cryptocurrencies and blockchain
-* Tailwind, React-Query, NextJS
-
-#### **Why Join BitGo?**
-
-
-
-Disrupting an industry takes vision, innovation, passion, technical chops, drive to deliver, collaboration, and execution. Join a team of great people who strive for excellence and personify our corporate values of ownership, craftsmanship, and open communication. We are looking for new colleagues who bring innovative ways of thinking and problem solving, and who want risks to be part of the team that changes the world's financial markets.
-
-
-**Pay Transparency Notice:** Depending upon your leveling and location, the compensation for this role averages between $180,000 - $240,000 CAD base salary. Equity, an annual performance bonus and the benefits outlined below are also a part of this role's package.
-
-
-
-Cryptocurrencies are the most disruptive change the financial services industry has seen in years. Join us and you'll be able to look back and say you were part of the team that transformed investing.",https://ca.indeed.com/cmp/Bitgo,,,,,Toronto,ON
-c1de6582a9787f22,indeed,https://ca.indeed.com/viewjob?jk=c1de6582a9787f22,https://careers.morningstar.com/us/en/job/MORMORUSAP8213030EXTERNALENUS/Software-Engineer?utm_source=indeed&utm_medium=phenom-feeds,Software Engineer,Morningstar,"Toronto, ON, CA",fulltime,2024-10-08,,,,,True,,"**Our Team**  
-
-Morningstar believes in empowering investors through research, data, design, and technology. Morningstar Direct (https://www.morningstar.com/products/direct) is Morningstar’s flagship software product that helps Asset and Wealth Managers build and manage their portfolios and communicate with their clients. Our team is modernizing the core Direct product using web technologies, cloud-based infrastructure, and a refreshed product strategy. Our core offering is complemented by a variety of reporting, analytical, and artificial intelligence tools. We aim to provide a first-class experience in accessing, analyzing, and reporting on Morningstar research and data. We are deeply inquisitive; we do not take “that’s just the way it’s always been done” or “that’s just best practice” as valid answers and instead seek to fine-tune our product development process for maximum impact. We are empowered professionals who are given problems to solve and not tickets to implement. We value team productivity over individual productivity and this culture of “giving” means we enjoy and highly value collaborating with our teammates.  
+Responsibilities:  
 
   
 
-**About the Role**  
+* strong design and development skills building both frontends and backends, with exposure to building cloud scale web services.
+* You will be working closely with data scientists, peer developers and UX teams to develop new services that involve Machine Learning and NLP.
+* You will be incorporating Machine Learning and NL technologies in a scalable architecture for our Fortune 100 customers. You will contribute to architecture, design and software engineering through all stages of product development.",https://www.glassdoor.ca/Overview/W-EI_IE452639.htm,,,,https://media.glassdoor.com/sql/452639/isgsearch-squareLogo-1618580307483.png,Toronto,ON
+1009477532829,glassdoor,https://www.glassdoor.ca/job-listing/j?jl=1009477532829,,"Software Development Engineer, Workforce Optimization",Amazon Development Centre Canada ULC,Toronto,,2024-10-07,yearly,113000.0,140000.0,CAD,False,"* 3+ years of non-internship professional software development experience
+* 2+ years of non-internship design or architecture (design patterns, reliability and scaling) of new and existing systems experience
+* Experience programming with at least one software programming language
 
-We are looking for a Software Engineer who specializes in full-stack development on modern cloud-based infrastructure to join our team, grow with us, introduce us to new ideas and develop products that empower our users. You will have technical product ownership and responsibility for ensuring process and quality adherence through code reviews, test coverage and overall governance. You will act as the software guardian, owning non-functional requirements, and the quality of the code while addressing technical debt. Every day, you’ll work with team members across disciplines developing products for our clients. You will partner with product owners and designers to understand our domain and create technical solutions that push us forward. You will be a co-owner of the product, responsible for its development and overall quality.
 
- **Job Description**
+Opportunities abound in Amazon's Associate Experience Organization! We build cool technology to ensure that ensures we are effectively utilizing the worlds largest workforce while creating an amazing employee experience for our associates.
+  
+  
 
- **Job Responsibilities**
+Key job responsibilities
+  
+As a Software Development Engineer, you will be part of a team building and maintaining systems that make a true real-world impact. Your responsibilities will include:
+  
+  
 
-* Build well designed, well-engineered, stable, scalable features and solutions for Morningstar Direct
-* Technical product ownership and responsibility to adhere to established guidelines through peer reviews for design and code, unit test results and deployment process for improving development team productivity.
-* Mentoring and leading other members of the development team.
-* Manage development projects through the whole project life cycle.
-* Enforce good engineering practices like scalable and flexible architectures, modular software design, and good testing practices.
-* Build and maintain a scalable, robust build and deployment system that allows us to quickly, frequently, and safely push changes to production.
-* Apply DevOps practices in area of continuous and automated deployment.
-* Analyze and remediate production issues and build instrumentation and operational readiness into the systems architecture.
-* Solve investors’ problems with technology, understanding market chaos at work and crafting technically appropriate interactive experiences to communicate effectively with individual investors.
-* Be constantly looking for opportunities for improvement, seizing them, and then sharing your findings with others.
-* Be hyper-focused on the stability and quality of the product.
+Delivering high quality code on time as part of a cross-functional team.
+  
+  
 
- **Qualifications**
+Contributing to team discussions around system component design, improvement and integration.
+  
+Designing and developing high performance, test-driven code.
+  
+  
 
-* Friendly and enjoys working in a collaborative team with excellent spoken and written communication skills. Humble, honest, and to the point.
-* Bachelor of Science in Computer Science, Engineering, or equivalent experience.
-* Minimum 2 years of hands-on experience in building reactive Single-Page Web Applications.
-* Experience with several of the following
-	+ Javascript application frameworks like Nuxt and Vue
-	+ Infrastructure as Code (IaC) tools like CloudFormation and Terraform
-	+ CI/CD tools like Jenkins, Cloudbees, and Harness
-	+ Building and deploying containerized applications
-	+ Linux/Unix command line tools like Homebrew, AWS CLI, git, npm, yarn, etc.
-* Solid understanding of computer science fundamentals: data structures, algorithms, design patterns.
+Working with and maintaining a large existing code base as well as new components; maintaining production code and contributing to deployment and QA processes.
+  
+  
 
- **Nice to have**
+A day in the life
+  
+Amazon offers a full range of benefits that support you and eligible family members, including domestic partners and their children. Benefits can vary by location, the number of regularly scheduled hours you work, length of employment, and job status such as seasonal or temporary employment. The benefits that generally apply to regular, full-time employees include:
+  
+1. Medical, Dental, and Vision Coverage
+  
+2. Maternity and Parental Leave Options
+  
+3. Paid Time Off (PTO)
+  
+4. RRSP Plan
+  
+  
 
-* Experience scaling web-based software applications and services.
-* An understanding of how to protect web applications and services from common security vulnerabilities.
-* Experience with Amazon Web Services technologies like CloudFront, S3, API gateway, ECS, Elastic Search, and ElastiCache
-* Experience with other modern programming languages like C#, Java, Python, etc.
-* Experience building and maintaining automated continuous deployment pipelines
-* Experience building and maintaining automated testing tools
+If you are not sure that every qualification on the list above describes you exactly, we'd still love to hear from you! At Amazon, we value people with unique backgrounds, experiences, and skillsets. If you’re passionate about this role and want to make an impact on a global scale, please apply!
+  
+  
+
+About the team
+  
+Amazon Fulfillment Technologies (AFT) powers Amazon’s global fulfillment network. We invent and deliver software, hardware, and data science solutions that orchestrate processes, robots, machines, and people. We harmonize the physical and virtual world so Amazon customers can get what they want, when they want it.
+  
+  
+
+AFT’s Workforce Optimization team delivers innovative systems and products to automate labor management and staffing decisions across processes and functions at Amazon’s global fulfillment network locations.
+  
+  
+
+* 3+ years of full software development life cycle, including coding standards, code reviews, source control management, build processes, testing, and operations experience
+* Bachelor's degree in computer science or equivalent
+
+
+Amazon is committed to a diverse and inclusive workplace. Amazon is an equal opportunity employer and does not discriminate on the basis of race, national origin, gender, gender identity, sexual orientation, disability, age, or other legally protected status. If you would like to request an accommodation, please notify your Recruiter.",https://www.glassdoor.ca/Overview/W-EI_IE6036.htm,,,,https://media.glassdoor.com/sql/6036/amazon-squarelogo-1552847650117.png,Toronto,ON
+1009477459020,glassdoor,https://www.glassdoor.ca/job-listing/j?jl=1009477459020,,Sr Software Developer – GenAI,Groom & Associes,Toronto,,2024-10-07,yearly,150000.0,175000.0,CAD,False,"This is a global leader in IoT and connected transportation. This company is advancing security, connecting commercial vehicles to the internet and providing web-based analytics to help customers better manage their fleets. The cpmpany’s open platform and Marketplace, offering hundreds of third-party solution options, allows both small and large businesses to automate operations by integrating vehicle data with their other data assets. Processing billions of data points a day, the company leverages data analytics and machine learning to improve productivity, optimize fleets through the reduction of fuel consumption, enhance driver safety and achieve strong compliance to regulatory changes.
+  
 
   
 
+Backed by a team of industry leading data scientists, engineers and AI experts, we serve over 50,000 customers across 160 countries, processing billions of data points hourly from more than 4 million vehicles. Data security and privacy are at the forefront of all we do—trusted by Fortune 500 organizations and some of the largest public sector fleets in the world, we meet top cybersecurity standards. The copmpany’s open platform and diverse Marketplace offers hundreds of fleet-ready third-party solutions.  
 
-100\_MstarResCanad Morningstar Research, Inc. (Canada) Legal Entity
-Morningstar’s hybrid work environment gives you the opportunity to work remotely and collaborate in-person each week. We’ve found that we’re at our best when we’re purposely together on a regular basis, at least three days each week. A range of other benefits are also available to enhance flexibility as needs change. No matter where you are, you’ll have tools and resources to engage meaningfully with your global colleagues.",https://ca.indeed.com/cmp/Morningstar-4,http://www.morningstar.com,"Chicago, IL","5,001 to 10,000",https://d2q79iu7y748jz.cloudfront.net/s/_squarelogo/256x256/081de8572a0b2a92b580726a6da3aad0,Toronto,ON
-4046050514,linkedin,https://www.linkedin.com/jobs/view/4046050514,,Full-Stack Web Developer,Iversoft,,,,,,,,,,,https://ca.linkedin.com/company/iversoft-solutions,,,,,,
-4042953661,linkedin,https://www.linkedin.com/jobs/view/4042953661,,Full-stack Developer,"Triunity Software, Inc.","Toronto, Ontario, Canada",,,,,,,,,,https://www.linkedin.com/company/triunitysoftware,,,,,Toronto,ON
-4043340912,linkedin,https://www.linkedin.com/jobs/view/4043340912,,Software Engineer,Sony Interactive Entertainment,"Waterloo, Ontario, Canada",,,,,,,,,,https://www.linkedin.com/company/sony-interactive-entertainment-llc,,,,,Waterloo,ON
-4042958255,linkedin,https://www.linkedin.com/jobs/view/4042958255,,Frontend Developer,"Triunity Software, Inc.","Toronto, Ontario, Canada",,,,,,,,,,https://www.linkedin.com/company/triunitysoftware,,,,,Toronto,ON
-4042954538,linkedin,https://www.linkedin.com/jobs/view/4042954538,,Front end Developer,"Triunity Software, Inc.","Eden, Manitoba, Canada",,,,,,,,,,https://www.linkedin.com/company/triunitysoftware,,,,,Eden,MB
-x6lML18Ya3nzacLWAtsr1A,zip_recruiter,https://www.ziprecruiter.com/jobs//j?lvk=x6lML18Ya3nzacLWAtsr1A,,Software Engineer Machine Vision/ Fixed Industrial Scanners,Zebra Technologies,"Mississauga, ON, Canada",,2024-10-08,,,,,,,"Remote Work: Yes Overview: At Zebra, we are a community of innovators who come together to create new ways of working to make everyday life better. United by curiosity and care, we develop dynamic solutions that anticipate our customer’s and partner’s needs and solve their challenges. Being a part of Zebra Nation means being seen, heard, valued, and respected.
+  
+
+As a Senior Software Developer your key area of responsibility to drive the development and implement cutting edge Generative AI systems and solutions that address complex challenges in the telematic industry with a particular focus on Large Language Models (LLMs), into the company’s product offerings and enhance operational efficiency. This position is responsible for developing the end-end GenAI project lifecycle including designing, developing and deploying GenAI models tailored to telematic applications. Key responsibilities include ensuring scalability and robustness of the GenAI system. The senior developer will engage closely with cross-functional teams to integrate AI solutions into the telematic platform.t. To be successful in this role you will be a self-starter with strong written and verbal communication skills, and have the ability to quickly understand complex, technical concepts  
+
+  
+
+We are looking for a Senior Developer to join a small team tasked with working on their Generative AI projects. There is a number of projects they have in mind. You would be joining 2 intermediate-senior devs and the lead developer in this team.  
+
+  
+
+  
+
+  
+
+Title: Senior Software Developer, Generative AI  
+
+Location: 3 offices in Ontario  
+
+  
+
+Toronto, Ontario,
+  
+
+Oakville, Ontario,
+  
+
+Kitchener, Ontario,
+  
+
+  
+
+Work model: Hybrid, leaning on more remote. 1x week in office and is flexible.
+  
+
+Type of position: Full time, permanent
+  
+
+Salary: 150-175k can be discussed + Bonus + 4% matching RRSPs + 3 weeks vacation
+  
+
+Start date: October-November 2024  
+
+  
+
+Key Responsibilities:  
+
+* Develop scalable and efficient Generative AI Applications.
+* Develop LLM-powered solutions using the various techniques that exist to reach product goals.
+* Design the right architecture based on product needs, balancing trade-offs like AI safety and latency.
+* Collaborate with cross-functional teams to integrate AI technologies seamlessly into the platform, ensuring a personalized and impactful learning experience.
+* Engage with the AI communities, contributing to and applying the latest findings and technologies to our AI initiatives.
+* Write clean, maintainable, and well-documented code following best practices and coding standards.
+* Ensure adherence to coding standards, best practices and maintain a high level of code quality within the development team.
+* Conduct code reviews and provide constructive feedback to team members.
+* Maintain comprehensive documentation of development processes.
+* Stay updated with the latest advancements in Generative AI, Machine learning and related fields.
+* Identify and implement improvement to the development process and workflows.
+* Evaluate and integrate new tools and technologies to enhance the GenAI development pipeline.
+* Take the ownership of key development projects, ensuring that the software aligns with business goals, timeline and expectations.
+* Managing technical risks to deliver expected solutions
+* Remain updated on cutting-edge advancements in areas related to LLMs, Agents, retrieval augmented generation (RAG), and Generative AI
+
+  
+
+Required qualifications  
+
+* 5 - 8 years of required previous experience in Software development with a focus on AI/ML
+* Proficiency in Python programming languages
+* Be familiar with GenAI and AI frameworks such as Langchain, Langgraph, Llamaindex, etc.
+* Expertise in designing and developing scalable and efficient Applications.
+* Some understanding of large language models (LLMs) and various techniques for deployment.
+* Excellent problem-solving skills and ability to think creatively.
+* Experience working with server side frameworks like FastAPI as well as API development, documentation, and versioning
+* Knowledge of containerization technologies like Docker and Kubernetes.
+* Experience working with GitLab CI for process automation including testing, analyzing, reviewing, building, and deploying code.
+* Experience working with and/or contributing to open source projects
+* Strong communication and collaboration skills
+* Stay abreast of industry trends and advancements in generative AI and prompt engineering, incorporating best practices into our development lifecycle.
+* Experience with cloud computing platforms (e.g., GCP, Azure, AWS) and distributed computing.
+* Ability to work effectively in a fast-paced and dynamic environment.",https://www.glassdoor.ca/Overview/W-EI_IE452623.htm,,,,https://media.glassdoor.com/sql/452623/groom-and-associates-squarelogo-1527069367397.png,Toronto,ON
+69b314ad12332d4e,indeed,https://ca.indeed.com/viewjob?jk=69b314ad12332d4e,http://ca.indeed.com/job/job7998-java-developer-69b314ad12332d4e,JOB7998 - Java Developer,S&V Worldwide Inc,"Toronto, ON, CA",temporary,2024-10-08,,,,,True,"Job Title: Senior Java Developer
+
+**Must Haves:**
+
+* At least 3 years of Spring Boot (version 2 or 3)
+* Strong hands-on experience with Java, Azure, and related technologies
+* Experience with Microservices architecture
+
+**Job Description:**
+
+Our Govt client is seeking a highly skilled **Senior Java Developer** with a proven track record in developing and maintaining applications using **Java Open JDK 8 & 11** and **Spring Boot**. The ideal candidate will have extensive experience in **SOAP/REST Services**, **Git/DevOps/CI/CD**, **Docker/Kubernetes**, **OAuth2**, **Java Data JPA/Hibernate**, and **SQL/Oracle databases**.
+
+You will work within **Agile Scrum** methodologies, collaborating with IT professionals throughout the Software Development Life Cycle (SDLC) and translating technical specifications into working applications. You will design, develop, test, and document applications while troubleshooting and resolving issues.
+
+Experience with front-end technologies such as **React** and **Node.js** is a plus. Strong communication skills and the ability to document and present solutions effectively are required.
+
+**Key Responsibilities:**
+
+* Develop and maintain applications based on technical specifications
+* Collaborate with cross-functional teams throughout SDLC
+* Troubleshoot technical issues and provide support during software deployment
+* Create detailed program specifications and perform unit testing
+* Work with **Microservices** and ensure seamless integration across platforms
+
+**Experience & Qualifications:**
+
+* At least 5 years of experience with **Java** and **Oracle/SQL Server** databases
+* 3+ years of experience with **Spring Boot**, **Docker/Kubernetes**, **OAuth2**, and **REST/SOAP services**
+* Familiarity with Agile Scrum, **DevOps**, **CI/CD**, and **Junit** testing
+* Excellent analytical, problem-solving, and communication skills
+
+**Nice to Have:**
+
+* Experience with **React** and **Node.js**
+* Open API specification and **Swagger**
+* Familiarity with various communication protocols
+
+Job Type: Fixed term contract  
+Contract length: 7 months
+
+Pay: $80.00-$85.00 per hour
+
+Schedule:
+
+* Monday to Friday
+
+Experience:
+
+* Docker and Kubernetes: 5 years (required)
+* Git, DevOps, and CI/CD: 5 years (required)
+* OAuth2: 3 years (required)
+* Oracle and SQL Server databases: 6 years (preferred)
+* React, Node.js familiarity: 1 year (preferred)
+* Spring Boot (version 2 or 3): 5 years (required)
+* Java Open JDK 8 & 11: 10 years (required)
+* Microservices architecture: 10 years (required)
+* REST and SOAP Web Services: 5 years (required)
+
+Work Location: Hybrid remote in Toronto, ON M7A 0B6
+
+Application deadline: 2024-10-11",https://ca.indeed.com/cmp/S&V-Worldwide-Inc,,,,,Toronto,ON
+57094afbf5cef99f,indeed,https://ca.indeed.com/viewjob?jk=57094afbf5cef99f,https://indeed.njoyn.com/cl3/xweb/XWeb.asp?page=jobdetails&clid=54334&JobID=J1024-0412&BRID=292310&sbdid=936,CANTRAIN’s Designer & Developer of Clinical Trial Training Programs (Research Institute),Centre Universitaire de santé McGill,"Montréal, QC, CA","temporary, fulltime",2024-10-08,,,,,False,"**Organization description**
+
+
+Le Centre universitaire de santé McGill (CUSM) est un centre hospitalier universitaire intégré, reconnu à l’échelle internationale pour l’excellence de ses programmes cliniques, de sa recherche et de son enseignement. Le CUSM a pour objectif d’assurer aux patients des soins fondés sur les connaissances les plus avancées dans le domaine de la santé et de contribuer au progrès des connaissances.
+
+**Job Description**
+
+**RESEARCH INSTITUTE OF THE MUHC**  
+
+The Research Institute of the McGill University Health Centre (RI-MUHC) is a world-renowned biomedical and hospital research centre. Located in Montreal, Quebec, the Institute is the research arm of the McGill University Health Centre (MUHC) affiliated with the Faculty of Medicine at McGill University. The RI-MUHC is supported in part by the Fonds de recherche du Québec - Santé (FRQS).  
+
+  
+
+**Position summary**  
+
+CANTRAIN is a national clinical trial training program (CTTP) in response to a call by the Canadian Institutes for Health Research (CIHR). Its vision is to offer the best, certified and standardized clinical trials’ training and mentoring program across Canada accompanied by Internships for Trainees in a real-world setting.
+  
+
+  
+
+CANTRAIN is committed to employment equity and encourages applications from Black, Indigenous, and racialized people, people of all gender identities and sexual orientations, and people with disabilities. CANTRAIN also recognizes the need for experience, knowledge and guidance from communities disproportionately affected by chronic or rare diseases.  
+
+  
+
+**General Duties**
+  
+
+The incumbent will use adult learning principles and e-Learning instructional strategies to develop, design, implement, and evaluate clinical research education curricula.  
+
+  
+
+The incumbent’s primary role and responsibilities will be to:  
+
+* Design comprehensive and engaging modular educational curricula into e-learning modules for the CANTRAIN clinical trial training platform,
+* Design interactive knowledge checks and other methods of evaluating student learning for CANTRAIN learning pathways,
+* Convert existing educational material (i.e., PowerPoint presentations) into technology-based online and mobile learning formats for the CANTRAIN LMS platform,
+* Collaborate with educators, coordinators and subject matter experts across multiple sites to develop, design and evaluate e-Learning modules for adoption by CANTRAIN.
+**Website of the organization**
+
+
+https://rimuhc.ca/en
+
+ **Education / Experience**
+
+
+Education: Bachelor's degree
+  
+
+Field of Study: Graphic design, Instructional design, eLearning development, Educational Technology, or related field.  
+
+  
+
+Work Experience: Minimum 2 years of professional experience in a similar designer role.  
+
+  
+
+Professional Membership: Yes No  
+
+  
+
+Other requirements:
+* Creativity and strong artistic flair to craft educational designs and interactions that captivate and inspire learners,
+* Possess a keen eye for graphic design and the ability to develop interactive activities, scenarios and videos that ignites curiosity and encourages active learning,
+* In-depth knowledge and experience applying e-learning, WCAG, and QA standards,
+* Works well within a fast-paced, deadline driven environment to support CANTRAIN objectives,
+* Motivated with a strong attention to detail and accuracy,
+* Excellent organizational skills,
+* Experience with integrating e-learning modules into learning management systems is an asset,
+* Well-developed communication skills (written and verbal),
+* Knowledge of industry-standard online learning tools is an asset (e.g., Articulate 360, Vyond, Adobe Creative, Canva, etc.),
+* Knowledge of Learning Management System (LMS) is an asset for the position,
+* Bilingual English/French is preferred.
+
+  
+
+Candidates must provide a designer’s artistic portfolio along with their CV.**Required Skills**
+
+* Ability to work with tight deadlines and within constraints.
+* Ability to work in a collaborative team.
+
+**Additional information**
+
+**Status:** Temporary Full-Time (35-hour workweek)
+  
+
+**Pay Scale:** $60,860.80 – $90,000.00. Commensurate with education and experience
+  
+
+**Work Shift:** 8:30 am to 4:30 pm  
+
+**Work Site:** 5252 de Maisonneuve (Hybrid, 2-days in-person and 3-days teleworking)  
+
+  
+
+Why work with us?  
+
+  
+
+* 4-week vacation, 5th week after 5 years,
+* Bank of 12 paid days (personal days and days for sickness or family obligations),
+* 13 paid statutory holidays,
+* Modular group insurance plan (including gender affirmation coverage),
+* Telemedicine,
+* RREGOP (defined benefit government pension plan),
+* Training and professional development opportunities,
+* Child Care Centres,
+* Corporate Discounts (OPUS + Perkopolis),
+* Competitive monthly parking rate,
+* Employee Assistance Program,
+* Recognition Program,
+* Flex work options and much more!
+
+  
+
+https://rimuhc.ca/careers  
+
+  
+
+To learn more about our benefits, please visit http://rimuhc.ca/en/compensation-and-benefits  
+
+  
+
+**THIS IS NOT A HOSPITAL POSITION.****Equal Opportunity Employment Program**
+
+
+The Research Institute of the McGill University Health Centre hires on the basis of merit and is strongly committed to equity, diversity and inclusion within its community. We welcome applications from all qualified candidates who self-identify as members of racialized groups/visible minorities, women, Indigenous persons, persons with disabilities, ethnic minorities, and 2SLGBTQIA+ persons. We also welcome candidates with the skills and knowledge to productively engage with diverse communities. Persons with disabilities who anticipate needing accommodations for any part of the application process may confidentially contact, research.talent@muhc.mcgill.ca",https://ca.indeed.com/cmp/Centre-Universitaire-De-Sant%C3%A9-Mcgill,https://cusm.ca/,Montréal,"10,000+",https://d2q79iu7y748jz.cloudfront.net/s/_squarelogo/256x256/753185ce3b7bd11b1e7eb93f510b4130,Montréal,QC
+726abb24ee4a130f,indeed,https://ca.indeed.com/viewjob?jk=726abb24ee4a130f,https://careers.ciena.com/us/en/job/CIENUSR026116ENUS/Software-Automation-Developer-Co-op-January-2025-8-12-months?utm_source=indeed&utm_medium=phenom-feeds,Software Automation Developer Co-op (January 2025) - 8-12 months,Ciena,"Ottawa, ON, CA",,2024-10-08,,,,,False,"**Ciena is committed to our people-first philosophy. Our teams enjoy a culture focused on prioritizing a personalized and flexible work environment that empowers an individual’s passions, growth, wellbeing and belonging. We’re a technology company that leads with our humanity—driving our business priorities alongside meaningful social, community, and societal impact.**  
+
+  
+
+**Not ready to apply? Join our****Talent Community****to get relevant job alerts straight to your inbox.**
+
+**Why Ciena?**
+
+* We’re a company **rooted in people**—seeking to create a **vibrant and inclusive environment**, where everyone feels they can belong.
+* Accelerate your career path by gaining **hands-on experience** and exposure to the latest technology. Our interns and graduates work on **real projects** in real time in world class labs. Be a part of tomorrow’s future – today.
+* **Mentoring. Networking. Leadership Opportunities**. We recognize that the learning doesn’t stop when you leave school - we champion a team environment for development and provide the tools to achieve success.
+* We are big proponents of **life-work integration.** Our people make a big difference at Ciena, but we want to shine light on their differences outside of working hours too. CienaCares supports non-profit causes important to employees by matching employee financial contributions and dedicating time for volunteering.
+
+**The Opportunity:**
+
+
+8 month work term (preferred): January – August 2025
+
+
+4 month work term: January – April 2025
+
+
+12 month work term: January – December 2025
+
+**How You Will Contribute:**
+
+
+The successful candidate will join the Photonic Product Assurance Team to instrument the software to help gather better performance metrics and develop test automation to capture and analyze these metrics while the system is under test. Specific responsibilities may include:
+
+* Adding instrumentation to the existing software.
+* Capturing various metrics from a network while it’s under test.
+* Development and maintenance of scripts to automate performance metric captures.
+* Development of various visualizations to present performance data on dashboards.
+* Executing automated test scripts, interpreting, and reporting results and help in debugging problems.
+* Assisting in resolution of problems reported and contributing to improved product quality in functionality, performance, robustness, and hardening areas.
+* Working closely with test engineers, SW designers and systems architects to understand the product capabilities and expected behaviour.
+* Supporting the product verification and integration test teams by developing common tools.
+
+**What Does Ciena Expect of You?**
+
+* **A sense of urgency** – what’s important to the customer is equally important to you. You make getting things done a priority.
+* **Integrity –** you hold yourself to the highest level of personal and professional standards of conduct.
+* A commitment to **innovation** – you continually seek to learn, understand new technologies and ever-changing market conditions, and endeavour to apply that knowledge to Ciena’s advantage.
+* You **embrace change** – thriving in a diverse environment of ever-changing priorities and sometimes stressful situations.
+* The flexibility to **work independently** with minimal supervision as well as **part of a broader team.**
+
+**The Must Haves:**
+
+* Working towards completion of a Software Engineering, Computer Engineering or Computer Science degree
+* Previous programming experience on a related school project or other related experience through hobbies, clubs, etc.
+* Working knowledge of scripting and other software programming languages like C, C++, Python, JavaScript, Bash Shell script.
+* Software development and test process, including revision control systems like Git.
+* Familiarity with Linux based workstations and OS.
+* Enthusiastic, self-motivated, strong communicator, team player, problem solver and ability to multi-task.
+
+**Assets:**
+
+* Familiarity with software performance concepts is a plus.
+
+**Compensation and Benefits**
+
+
+The pay range for this position is $24.50-33.00/hr CAD
+
+  
+
+Pay ranges at Ciena are designed to accommodate variations in knowledge, skills, experience, market conditions, and locations, reflecting our diverse products, industries, and lines of business. Please note that the pay range information provided in this posting pertains specifically to the primary location, which is the top location listed in case multiple locations are available.
+
+  
+
+In addition to competitive compensation, Ciena offers students access to the Employee Assistance Program (EAP), company-paid holidays, paid sick leave, and vacation pay as required by applicable laws.
+
+ **Not ready to apply? Join our****Talent Community****to get relevant job alerts straight to your inbox.**  
+
+  
+
+**At Ciena, we are committed to building and fostering an environment in which our employees feel respected, valued, and heard. Ciena values the diversity of its workforce and respects its employees as individuals. We do not tolerate any form of discrimination.****Ciena is an** **Equal Opportunity Employer, including disability and protected veteran status.****If contacted in relation to a job opportunity, please advise Ciena of any accommodation measures you may require.**",https://ca.indeed.com/cmp/Ciena,https://www.ciena.com/,"Hanover, MD","5,001 to 10,000",https://d2q79iu7y748jz.cloudfront.net/s/_squarelogo/256x256/4d1ee31552679bbefca31ab284df48a4,Ottawa,ON
+2d212d391f16c8ac,indeed,https://ca.indeed.com/viewjob?jk=2d212d391f16c8ac,https://careers.ciena.com/us/en/job/CIENUSR026117ENUS/Photonics-Software-Developer-Co-op-January-2025-8-12-months?utm_source=indeed&utm_medium=phenom-feeds,Photonics Software Developer Co-op (January 2025) - 8-12 months,Ciena,"Ottawa, ON, CA",,2024-10-08,,,,,False,"**Ciena is committed to our people-first philosophy. Our teams enjoy a culture focused on prioritizing a personalized and flexible work environment that empowers an individual’s passions, growth, wellbeing and belonging. We’re a technology company that leads with our humanity—driving our business priorities alongside meaningful social, community, and societal impact.**  
+
+  
+
+**Not ready to apply? Join our****Talent Community****to get relevant job alerts straight to your inbox.**
+
+**Why Ciena?**
+
+* We’re a company **rooted in people**—seeking to create a **vibrant and inclusive environment**, where everyone feels they can belong.
+* Accelerate your career path by gaining **hands-on experience** and exposure to the latest technology. Our interns and graduates work on **real projects** in real time in world class labs. Be a part of tomorrow’s future – today.
+* **Mentoring. Networking. Leadership Opportunities**. We recognize that the learning doesn’t stop when you leave school - we champion a team environment for development and provide the tools to achieve success.
+* We are big proponents of **life-work integration.** Our people make a big difference at Ciena, but we want to shine light on their differences outside of working hours too. CienaCares supports non-profit causes important to employees by matching employee financial contributions and dedicating time for volunteering.
+
+**The Opportunity:**
+
+
+8 month work term (preferred): January – August 2025
+
+
+4 month work term: January – April 2025
+
+
+12 month work term: January – December 2025
+
+**How You Will Contribute:**
+
+
+As an embedded software developer in a dynamic team environment, you will help enhance the quality of best-in-class optical networking products. The team develops leading-edge photonics software for the RLS platform, pushing boundaries in optical innovation.
+
+* You will be responsible for designing, implementing, and maintaining automated test cases which play a key role in ensuring the quality of optical networks using the RLS platform
+* You will participate in the full software development lifecycle, collaborating with cross-functional teams, designers, produce verification and release management teams
+* You will participate in group design discussions to discuss solutions to problems, or ideas for feature enhancements
+* You will work in an agile development environment, producing high quality deliverables in rapid development cycles
+* You will identify software performance improvements through test driven development, automated unit testing, and comprehensive integration testing
+
+**What Does Ciena Expect of You?**
+
+* **A sense of urgency** – what’s important to the customer is equally important to you. You make getting things done a priority.
+* **Integrity –** you hold yourself to the highest level of personal and professional standards of conduct.
+* A commitment to **innovation** – you continually seek to learn, understand new technologies and ever-changing market conditions, and endeavour to apply that knowledge to Ciena’s advantage.
+* You **embrace change** – thriving in a diverse environment of ever-changing priorities and sometimes stressful situations.
+* The flexibility to **work independently** with minimal supervision as well as **part of a broader team.**
+
+**The Must Haves:**
+
+* Working towards completion of a bachelor’s or master’s degree in computer engineering, software engineering, or computer science
+* Foundational knowledge of C/C++ programming
+* Excellent written and oral communication skills
+* Enthusiastic, self-motivated, team player, problem solver and ability to multi-task
+
+**Assets:**
+
+* Experience developing software for embedded systems or telecommunications products
+* Design and development tools such as Git, Bitbucket, Jira, Confluence, GDB
+* Unit test frameworks such as Google Test
+* YANG modeling language and toolchains
+
+**Compensation and Benefits**
+
+The pay range for this position is $24.50-33.00/hr CAD
+
+  
+
+Pay ranges at Ciena are designed to accommodate variations in knowledge, skills, experience, market conditions, and locations, reflecting our diverse products, industries, and lines of business. Please note that the pay range information provided in this posting pertains specifically to the primary location, which is the top location listed in case multiple locations are available.
+
+  
+
+In addition to competitive compensation, Ciena offers students access to the Employee Assistance Program (EAP), company-paid holidays, paid sick leave, and vacation pay as required by applicable laws.
+
+ **Not ready to apply? Join our****Talent Community****to get relevant job alerts straight to your inbox.**  
+
+  
+
+**At Ciena, we are committed to building and fostering an environment in which our employees feel respected, valued, and heard. Ciena values the diversity of its workforce and respects its employees as individuals. We do not tolerate any form of discrimination.****Ciena is an** **Equal Opportunity Employer, including disability and protected veteran status.****If contacted in relation to a job opportunity, please advise Ciena of any accommodation measures you may require.**",https://ca.indeed.com/cmp/Ciena,https://www.ciena.com/,"Hanover, MD","5,001 to 10,000",https://d2q79iu7y748jz.cloudfront.net/s/_squarelogo/256x256/4d1ee31552679bbefca31ab284df48a4,Ottawa,ON
+5ca1ebc7930d9e45,indeed,https://ca.indeed.com/viewjob?jk=5ca1ebc7930d9e45,https://careers.ciena.com/us/en/job/CIENUSR026115ENUS/Photonic-Card-Software-Developer-Co-Op-January-2025?utm_source=indeed&utm_medium=phenom-feeds,Photonic Card Software Developer Co-Op (January 2025),Ciena,"Ottawa, ON, CA",,2024-10-08,,,,,False,"**Ciena is committed to our people-first philosophy. Our teams enjoy a culture focused on prioritizing a personalized and flexible work environment that empowers an individual’s passions, growth, wellbeing and belonging. We’re a technology company that leads with our humanity—driving our business priorities alongside meaningful social, community, and societal impact.**  
+
+  
+
+**Not ready to apply? Join our****Talent Community****to get relevant job alerts straight to your inbox.**
+
+
+.
+
+**Why Ciena?**
+
+* We are a company **rooted in people**—seeking to create a **vibrant and inclusive environment**, where everyone feels they can belong.
+* Accelerate your career path by gaining **hands-on experience** and exposure to the latest technology. Our interns and graduates work on **real projects** in real time in world class labs. Be a part of tomorrow’s future – today.
+* **Mentoring. Networking. Leadership Opportunities**. We recognize that learning does not stop when you leave school - we champion a team environment for development and provide the tools to achieve success.
+* We are big proponents of **life-work integration.** Our people make a significant difference at Ciena, but we want to shine light on their differences outside of working hours too. CienaCares supports non-profit causes important to employees by matching employee financial contributions and dedicating time for volunteering.
+
+**The Opportunity:**
+
+
+Work term of 4, 8, 12 or 16 months starting in January 2025
+
+**How You Will Contribute:**
+
+
+Our team designs, implements, integrates, and maintains real-time photonic card software for several of Ciena’s Optical Ethernet Network flagship products, leveraging advanced coherent optics, automated OTN, packet and SONET/SDH switching, control plane, and unified network management—to help network operators scale, manage, and differentiate their services.
+
+**What Does Ciena Expect of You?**
+
+* **A sense of urgency** – what is important to the customer is equally important to you. You make getting things done a priority.
+* **Integrity –** you hold yourself to the highest level of personal and professional standards of conduct.
+* A commitment to **innovation** – you continually seek to learn, understand modern technologies and ever-changing market conditions, and endeavor to apply that knowledge to Ciena’s advantage.
+* You **embrace change** – thriving in a diverse environment of ever-changing priorities and sometimes stressful situations.
+* The flexibility to **work independently** with minimal supervision as well as **part of a broader team.**
+
+**The Must Haves:**
+
+* Enrolled in a bachelor’s or master's degree in computer or electrical engineering, computer science, or similar disciplines
+* Experience with C and Python
+
+**Assets:**
+
+* Developing software for embedded systems or telecom products
+* Understanding of CPU hardware architectures, hardware functional specifications, hardware timing diagrams, device data sheets
+* Understanding of real-time operating systems and embedded systems
+* Software development tools such as git, BitBucket, Gerrit, Jira, etc.
+* Unit test frameworks such as Google Test, JUnit, Robot, PyTest, and the like
+* Debuggers and tools (e.g., gdb)
+* High-level programming and scripting languages such as C++, Java, Perl, Tcl, LUA, bash
+* Software development methodologies such as Agile or Waterfall
+* Familiarity with datacom and telecom concepts such as DWDM, SONET/SDH, OTN, Ethernet, OSI Model, TCP/IP, MPLS
+
+**Compensation and Benefits**
+
+
+The pay range for this position is $24.50-33.00/hr CAD
+
+  
+
+Pay ranges at Ciena are designed to accommodate variations in knowledge, skills, experience, market conditions, and locations, reflecting our diverse products, industries, and lines of business. Please note that the pay range information provided in this posting pertains specifically to the primary location, which is the top location listed in case multiple locations are available.
+
+  
+
+In addition to competitive compensation, Ciena offers students access to the Employee Assistance Program (EAP), company-paid holidays, paid sick leave, and vacation pay as required by applicable laws.
+
+ **Not ready to apply? Join our****Talent Community****to get relevant job alerts straight to your inbox.**  
+
+  
+
+**At Ciena, we are committed to building and fostering an environment in which our employees feel respected, valued, and heard. Ciena values the diversity of its workforce and respects its employees as individuals. We do not tolerate any form of discrimination.****Ciena is an** **Equal Opportunity Employer, including disability and protected veteran status.****If contacted in relation to a job opportunity, please advise Ciena of any accommodation measures you may require.**",https://ca.indeed.com/cmp/Ciena,https://www.ciena.com/,"Hanover, MD","5,001 to 10,000",https://d2q79iu7y748jz.cloudfront.net/s/_squarelogo/256x256/4d1ee31552679bbefca31ab284df48a4,Ottawa,ON
+4046050514,linkedin,https://www.linkedin.com/jobs/view/4046050514,,Full-Stack Web Developer,Iversoft,,,,,,,,,,https://ca.linkedin.com/company/iversoft-solutions,,,,,,
+4042953661,linkedin,https://www.linkedin.com/jobs/view/4042953661,,Full-stack Developer,"Triunity Software, Inc.","Toronto, Ontario, Canada",,,,,,,,,https://www.linkedin.com/company/triunitysoftware,,,,,Toronto,ON
+4043340912,linkedin,https://www.linkedin.com/jobs/view/4043340912,,Software Engineer,Sony Interactive Entertainment,"Waterloo, Ontario, Canada",,,,,,,,,https://www.linkedin.com/company/sony-interactive-entertainment-llc,,,,,Waterloo,ON
+4042958255,linkedin,https://www.linkedin.com/jobs/view/4042958255,,Frontend Developer,"Triunity Software, Inc.","Toronto, Ontario, Canada",,,,,,,,,https://www.linkedin.com/company/triunitysoftware,,,,,Toronto,ON
+4042954538,linkedin,https://www.linkedin.com/jobs/view/4042954538,,Front end Developer,"Triunity Software, Inc.","Eden, Manitoba, Canada",,,,,,,,,https://www.linkedin.com/company/triunitysoftware,,,,,Eden,MB
+x6lML18Ya3nzacLWAtsr1A,zip_recruiter,https://www.ziprecruiter.com/jobs//j?lvk=x6lML18Ya3nzacLWAtsr1A,,Software Engineer Machine Vision/ Fixed Industrial Scanners,Zebra Technologies,"Mississauga, ON, Canada",,2024-10-08,,,,,,"Remote Work: Yes Overview: At Zebra, we are a community of innovators who come together to create new ways of working to make everyday life better. United by curiosity and care, we develop dynamic solutions that anticipate our customer’s and partner’s needs and solve their challenges. Being a part of Zebra Nation means being seen, heard, valued, and respected.
  
 
 
@@ -703,7 +776,7 @@ x6lML18Ya3nzacLWAtsr1A,zip_recruiter,https://www.ziprecruiter.com/jobs//j?lvk=x6
 
 
  Our Talent Acquisition team will not ask for you to provide personal identifying information via e-mail or outside of the system. If you are a victim of identity theft contact your local police department.",,,,,,Mississauga,ON
-_BY9n_iFJFNK4ovnxXuRtQ,zip_recruiter,https://www.ziprecruiter.com/jobs//j?lvk=_BY9n_iFJFNK4ovnxXuRtQ,,Senior Front End Software Engineer,illumin,"Toronto, ON, Canada",fulltime,2024-10-08,,,,,,,"**What You Will Do:** 
+_BY9n_iFJFNK4ovnxXuRtQ,zip_recruiter,https://www.ziprecruiter.com/jobs//j?lvk=_BY9n_iFJFNK4ovnxXuRtQ,,Senior Front End Software Engineer,illumin,"Toronto, ON, Canada",fulltime,2024-10-08,,,,,,"**What You Will Do:** 
 
 
 
@@ -754,72 +827,180 @@ _BY9n_iFJFNK4ovnxXuRtQ,zip_recruiter,https://www.ziprecruiter.com/jobs//j?lvk=_B
 
 
  vhPtU1TMTq",,,,,,Toronto,ON
-6Y4fy7J8ZOx79HbdobUJxA,zip_recruiter,https://www.ziprecruiter.com/jobs//j?lvk=6Y4fy7J8ZOx79HbdobUJxA,,"Software Development Engineer, Workforce Optimization",Amazon,"Toronto, ON, Canada",,2024-10-08,,,,,,,"Opportunities abound in Amazon's Associate Experience Organization! We build cool technology to ensure that ensures we are effectively utilizing the worlds largest workforce while creating an amazing employee experience for our associates.
+PvnUyK9DjQu9LEXwmat1XA,zip_recruiter,https://www.ziprecruiter.com/jobs//j?lvk=PvnUyK9DjQu9LEXwmat1XA,,Software Developer - Full Stack - Senior Software Developer - Full Stack,Global Technical Talent,"Toronto, ON, Canada",,2024-10-08,,,,,,"Description
+   
+
+ =========
+   
+
+ With multiple years of hands-on experience, we are seeking a skilled Full Stack Developer specializing in WordPress, proficient in crafting custom themes and plugins. Alongside technical prowess, effective communication skills are paramount, ensuring seamless collaboration within a team environment.
+   
+
+ Proficient in WordPress development, with demonstrable experience in creating custom themes and plugins.
+   
+
+ Strong proficiency in front-end technologies, including HTML5, CSS3, and JavaScript/jQuery.
+   
+
+ Extensive experience with PHP and MySQL for back-end development within the WordPress environment.
+   
+
+ Expertise in responsive web design and familiarity with mobile-first development principles.
+   
+
+ In-depth knowledge of WordPress architecture, security best practices, and optimization techniques.
+   
+
+ Ability to troubleshoot and resolve issues related to WordPress, themes, and plugins efficiently.
+   
+
+ Experience in integrating third-party APIs and web services into WordPress websites.
+   
+
+ Familiarity with version control systems, such as Git, for collaborative development.
+   
+
+ Solid understanding of SEO principles and best practices for WordPress websites.
+   
+
+ Excellent communication skills and the ability to work collaboratively in a team environment.
    
 
   
 
- Key job responsibilities
+ Experience and Skill Set Requirements
    
 
- As a Software Development Engineer, you will be part of a team building and maintaining systems that make a true real-world impact. Your responsibilities will include:
+ ==============================
    
 
-  
-
- Delivering high quality code on time as part of a cross-functional team.
-   
-
-  
-
- Contributing to team discussions around system component design, improvement and integration.
-   
-
- Designing and developing high performance, test-driven code.
+ - Please note this role is part of a Hybrid Work Arrangement and resource(s) will be required to work at a minimum of 2-3 days per week at 315 Front Street at discretion of manager.
    
 
   
 
- Working with and maintaining a large existing code base as well as new components; maintaining production code and contributing to deployment and QA processes.
+ Experience and Skill Set Requirements
+   
+
+ Ability to collaborate with IT Professionals throughout the Software Development Life Cycle
+   
+
+ Extensive experience with design and development of responsive web applications using Angular and popular front-end tools
+   
+
+ Knowledge of mid-tier frameworks like Spring boot, Java applications
+   
+
+ Experience in designing and developing scalable microservices and database services
+   
+
+ Experience with relational and MySQL database technologies
+   
+
+ Experience implementing API integration best practices
+   
+
+ Experience working in agile frameworks like scrum for development, design, implementation and maintenance of applications
+   
+
+ Experience working in a test-driven development environment
+   
+
+ Expertise to influence testing strategy and guide test automation
+   
+
+ Perform peer review and ensure quality at every stage of the product development lifecycle
+   
+
+ Provide mentorship and perform knowledge transfer to other peer developers
+   
+
+ Recommend and implement changes to reference architecture, development frameworks and design patterns
+   
+
+ Promotes industry standards and best practices with the product teams
+   
+
+ Knowledge and understanding of Accessibility for Ontarians with Disability Act (AODA) and related regulations and standards
+   
+
+ Ability to provide user and system documentation as required
+   
+
+ A team player with a track record for meeting deadlines
    
 
   
 
- A day in the life
-   
-
- Amazon offers a full range of benefits that support you and eligible family members, including domestic partners and their children. Benefits can vary by location, the number of regularly scheduled hours you work, length of employment, and job status such as seasonal or temporary employment. The benefits that generally apply to regular, full-time employees include:
-   
-
- 1. Medical, Dental, and Vision Coverage
-   
-
- 2. Maternity and Parental Leave Options
-   
-
- 3. Paid Time Off (PTO)
-   
-
- 4. RRSP Plan
-   
+  
 
   
 
- If you are not sure that every qualification on the list above describes you exactly, we'd still love to hear from you! At Amazon, we value people with unique backgrounds, experiences, and skillsets. If you're passionate about this role and want to make an impact on a global scale, please apply!
+ Selection Criteria
    
 
-  
-
- About the team
+ Order
    
 
- Amazon Fulfillment Technologies (AFT) powers Amazon's global fulfillment network. We invent and deliver software, hardware, and data science solutions that orchestrate processes, robots, machines, and people. We harmonize the physical and virtual world so Amazon customers can get what they want, when they want it.
+ Percentage
    
 
-  
+ Criteria
+   
 
- AFT's Workforce Optimization team delivers innovative systems and products to automate labor management and staffing decisions across processes and functions at Amazon's global fulfillment network locations.",,,,,,Toronto,ON
-UZVP6oCGYTJ5MFppUJKcTw,zip_recruiter,https://www.ziprecruiter.com/jobs//j?lvk=UZVP6oCGYTJ5MFppUJKcTw,,Senior Software Engineer,Spiffy Window Cleaning,"Vancouver, BC, Canada",,2024-10-07,,,,,,,"**Job Title:** 
+ 1
+   
+
+ 70
+   
+
+ - Extensive Experience with Wordpress, Extensive experience with design and development of responsive web applications using Angular and popular front-end tools
+   
+
+ Knowledge of mid-tier frameworks like Spring boot, Java
+   
+
+ Experience in designing and developing scalable microservices and database services
+   
+
+ Experience with relational and MySQL database technologies
+   
+
+ Experience in API integration best practices
+   
+
+ Ability to provide user and system documentation as required
+   
+
+ Experience in UX design and implementing WordPress Learning Management System plugins
+   
+
+ 2
+   
+
+ 30
+   
+
+ Experience working in a test-driven development environment
+   
+
+ Expertise to influence testing strategy and guide test automation
+   
+
+ Perform peer review and ensure quality at every stage of the product development lifecycle
+   
+
+ Recommend and implement changes to reference architecture, development frameworks and design patterns
+   
+
+ Promotes industry standards and best practices with the product teams
+   
+
+ Knowledge and understanding of Accessibility for Ontarians with Disability Act (AODA) and related regulations and standards
+   
+
+ Experience working in agile frameworks like scrum for development, design, implementation and maintenance of applications",,,,,,Toronto,ON
+UZVP6oCGYTJ5MFppUJKcTw,zip_recruiter,https://www.ziprecruiter.com/jobs//j?lvk=UZVP6oCGYTJ5MFppUJKcTw,,Senior Software Engineer,Spiffy Window Cleaning,"Vancouver, BC, Canada",,2024-10-07,,,,,,"**Job Title:** 
  Senior Software Engineer
  
 
@@ -910,7 +1091,7 @@ UZVP6oCGYTJ5MFppUJKcTw,zip_recruiter,https://www.ziprecruiter.com/jobs//j?lvk=UZ
 
 **How to Apply:** 
  If you’re excited about the challenge of building something new and want to be a key player in the early days of a fast-moving startup, we’d love to hear from you. Please send your resume, along with a portfolio or links to previous work, to Spiffywindowcleaning016@gmail.com.",,,,,,Vancouver,BC
-ZiKw4_xPjcKQ9sS9itgIZQ,zip_recruiter,https://www.ziprecruiter.com/jobs//j?lvk=ZiKw4_xPjcKQ9sS9itgIZQ,,Software Engineer,LanceSoft,"Toronto, ON, Canada",,2024-10-07,,,,,,,"Location: Fully Remote - Only Canada
+ZiKw4_xPjcKQ9sS9itgIZQ,zip_recruiter,https://www.ziprecruiter.com/jobs//j?lvk=ZiKw4_xPjcKQ9sS9itgIZQ,,Software Engineer,LanceSoft,"Toronto, ON, Canada",,2024-10-07,,,,,,"Location: Fully Remote - Only Canada
    
 
  Contract Duration: 12 months
