@@ -2,7 +2,7 @@ from jobspy import scrape_jobs
 import datetime
 
 
-def job_scrape(site_name=["indeed", "linkedin", "zip_recruiter", "glassdoor"], search_term="Software Engineer", location=None, results_wanted=20, hours_old=72, country='Canada', country_indeed='Canada'):
+def job_scrape(site_name=["indeed", "linkedin", "zip_recruiter", "glassdoor"], search_term="Software Engineer", location=None, results_wanted=10, hours_old=72, country='Canada', country_indeed='Canada'):
     jobs = scrape_jobs(
     site_name=site_name,
     search_term=search_term,
@@ -16,13 +16,6 @@ def job_scrape(site_name=["indeed", "linkedin", "zip_recruiter", "glassdoor"], s
     # proxies=["208.195.175.46:65095", "208.195.175.45:65095", "localhost"],
     )
     return jobs
-
-
-def get_top_jobs(keyword):
-    pass
-
-def process_location():
-    pass
 
 def process_location(df):
     # Dictionary of Canadian province abbreviations

@@ -1,28 +1,3 @@
-# from pymongo import MongoClient
-# from pymongo.errors import DuplicateKeyError
-
-# def connect_to_mongodb(connection_string, db_name, collection_name):
-#     client = MongoClient(connection_string)
-#     db = client[db_name]
-#     collection = db[collection_name]
-#     return client, db, collection
-
-# def create_indexes(collection):
-#     collection.create_index("Job Title")
-#     collection.create_index("City")
-
-# def query_by_title(collection, title):
-#     return list(collection.find({"title": {"$regex": title, "$options": "i"}}))
-
-# def query_by_city(collection, city):
-#     return list(collection.find({"city": city}))
-
-# def insert_many_jobs(collection, records):
-#     return collection.insert_many(records)
-
-# def get_unique_locations(collection):
-#     return collection.distinct('location')
-
 import boto3
 from boto3.dynamodb.conditions import Key, Attr
 from botocore.exceptions import ClientError
@@ -118,7 +93,7 @@ class JobDatabase:
             print(f"Error getting unique locations: {e}")
             return []
 
-def connect_to_database(table_name, region_name='us-west-2'):
+def connect_to_database(table_name, region_name='ca-central-1-yto-1a'):
     try:
         job_db = JobDatabase(table_name, region_name)
         job_db.table.table_status  # This will raise an exception if the table doesn't exist
