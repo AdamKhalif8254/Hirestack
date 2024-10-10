@@ -50,17 +50,20 @@ HireStack is designed for IT professionals seeking their next career opportunity
 ## Getting Started
 
 1. Clone the repository
+
    ```bash
    git clone https://github.com/AdamKhalif8254/Hirestack.git
    cd Hirestack
    ```
 
 2. Install dependencies
+
    ```bash
    npm install
    ```
 
 3. Set up environment variables
+
    ```bash
    npm install -g vercel
    vercel login
@@ -77,14 +80,13 @@ HireStack is designed for IT professionals seeking their next career opportunity
 
 We welcome contributions! Please see our [Contributing Guide](CONTRIBUTING.md) for details on how to get involved.
 
-
 ## Authors
 
 HireStack was created and is maintained by:
 
 - Adam Khalif
 - Ahmed El farra
-- Abdul Muhaimin
+- Abdul.M Ali
 - Ammar Alzureiq
 
 ## Contact
