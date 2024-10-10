@@ -17,14 +17,15 @@
     "start": "next start",
     "test": "jest",
     "vercel-env": "vercel env pull .env",
-    "docker:build": "docker build -t hirestack-frontend .",
-    "docker:run": "docker run -p 3000:3000 -e DATABASE_URL=$DATABASE_URL -e NEXTAUTH_SECRET=$NEXTAUTH_SECRET -e NEXTAUTH_URL=$NEXTAUTH_URL hirestack-frontend",
-    "docker:dev": "docker run -p 3000:3000 -v $(pwd):/app -e DATABASE_URL=$DATABASE_URL -e NEXTAUTH_SECRET=$NEXTAUTH_SECRET -e NEXTAUTH_URL=$NEXTAUTH_URL hirestack-frontend npm run dev",
+    "docker:build": "docker build --build-arg $(cat .env.local | xargs) -t hirestack-frontend .",
+    "docker:run": "docker run --env-file .env.local -p 3000:3000 hirestack-frontend",
+    "docker:dev": "docker run --env-file .env.local -p 3000:3000 -v $(pwd):/app hirestack-frontend npm run dev",
     "docker:stop": "docker stop $(docker ps -q --filter ancestor=hirestack-frontend)",
-    "docker:compose:watch": "docker compose up --watch"
+    "docker:compose:watch": "docker compose --env-file .env up --watch"
   },
   "dependencies": {
     "@auth/prisma-adapter": "^2.6.0",
+    "@emotion/react": "^11.13.3",
     "@formkit/auto-animate": "^0.8.2",
     "@prisma/client": "^5.14.0",
     "@t3-oss/env-nextjs": "^0.10.1",
