@@ -21,7 +21,7 @@
     "docker:run": "docker run --env-file .env.local -p 3000:3000 hirestack-frontend",
     "docker:dev": "docker run --env-file .env.local -p 3000:3000 -v $(pwd):/app hirestack-frontend npm run dev",
     "docker:stop": "docker stop $(docker ps -q --filter ancestor=hirestack-frontend)",
-    "docker:compose:watch": "docker compose --env-file .env.local up --watch"
+    "docker:compose:watch": "docker compose --env-file .env up --watch"
   },
   "dependencies": {
     "@auth/prisma-adapter": "^2.6.0",

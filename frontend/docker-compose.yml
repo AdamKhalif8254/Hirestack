@@ -7,7 +7,7 @@ services:
     ports:
       - "3000:3000"
     environment:
-      - DATABASE_URL=${DATABASE_URL}
+      - DATABASE_URL=postgresql://postgres:${DB_PASSWORD}@db:5432/hirestack
       - NEXTAUTH_SECRET=${NEXTAUTH_SECRET}
       - NEXTAUTH_URL=${NEXTAUTH_URL}
       - DISCORD_CLIENT_ID=${DISCORD_CLIENT_ID}
@@ -27,5 +27,20 @@ services:
           ignore:
             - node_modules/
           action: sync
+    depends_on:
+      - db
 
-  # Add other services like backend, database, etc. as needed
+  db:
+    image: postgres:latest
+    container_name: hirestack-postgres
+    environment:
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=${DB_PASSWORD}
+      - POSTGRES_DB=hirestack
+    ports:
+      - "${DB_PORT:-5432}:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+
+volumes:
+  postgres_data:
