@@ -1,5 +1,6 @@
 'use client';
-import React, { useRef } from "react";
+import React, { useRef, useEffect } from "react";
+import { useRouter } from "next/navigation";
 import Link from 'next/link';
 import {
   ChevronUp,
@@ -22,6 +23,15 @@ import type { Session } from "next-auth";
 
 // Update the component to accept session as a prop
 export default function HomeClient({ session }: { session: Session | null }) {
+
+  const router = useRouter();
+  
+  useEffect(() => {
+    if (session) {
+      router.push('/dashboard');
+    }
+  }, [session, router]);
+
   const jobData = [
     {
       id: 1,
@@ -118,48 +128,37 @@ export default function HomeClient({ session }: { session: Session | null }) {
       </div>
 
       {/* Floating Header */}
-      <header className="fixed left-1/2 top-4 z-50 w-11/12 max-w-6xl -translate-x-1/2 transform rounded-full bg-gray-900 bg-opacity-80 px-4 sm:px-8 py-4 shadow-lg backdrop-blur-lg backdrop-filter">
-        <div className="flex items-center justify-between">
-          <div className="flex items-center space-x-4">
-            <Image src="/Logo.svg" alt="HireStack Logo" width={32} height={32} className="" />
-            <h1 className="text-xl sm:text-2xl font-bold">
-              <span className="text-blue-400">Hire</span>Stack
-            </h1>
-          </div>
-          <nav className="hidden md:flex space-x-20">
-            {session ? (
-                <>
-                  <Link href="/dashboard" className="text-white hover:text-blue-400 transition-colors">Dashboard</Link>
-                <Link href="/search" className="text-white hover:text-blue-400 transition-colors">Search</Link>
-                <Link href="/settings" className="text-white hover:text-blue-400 transition-colors">Settings</Link>
-              </>
-              
-            ) : (
-              <>
-                <button onClick={() => scrollToSection('home')} className="text-white hover:text-blue-400 transition-colors">Home</button>
-                <button onClick={() => scrollToSection('features')} className="text-white hover:text-blue-400 transition-colors">Features</button>
-                <button onClick={() => scrollToSection('jobs')} className="text-white hover:text-blue-400 transition-colors">Jobs</button>
-                <button onClick={() => scrollToSection('contact')} className="text-white hover:text-blue-400 transition-colors">Contact</button>
-              </>
-            )}
-          </nav>
-          <Link href={session ? "/api/auth/signout" : "/api/auth/signin"}>
-            <button className="flex items-center space-x-1 sm:space-x-2 rounded-full bg-blue-600 px-3 sm:px-4 py-1.5 sm:py-2 text-sm sm:text-base font-bold text-white transition-colors hover:bg-blue-700">
-              <LogIn className="h-3 w-3 sm:h-4 sm:w-4" />
-              <span className="truncate max-w-[100px] sm:max-w-none">
-                {session ? `Sign Out` : "Login"}
-              </span>
-            </button>
-          </Link>
-        </div>
-      </header>
+      {session ? (
+  <></>
+) : (
+  <header className="fixed left-1/2 top-4 z-50 w-11/12 max-w-6xl -translate-x-1/2 transform rounded-full bg-gray-900 bg-opacity-80 px-4 sm:px-8 py-4 shadow-lg backdrop-blur-lg backdrop-filter">
+    <div className="flex items-center justify-between">
+      <div className="flex items-center space-x-4">
+        <Image src="/Logo.svg" alt="HireStack Logo" width={32} height={32} className="" />
+        <h1 className="text-xl sm:text-2xl font-bold">
+          <span className="text-blue-400">Hire</span>Stack
+        </h1>
+      </div>
+      <nav className="hidden md:flex space-x-20">
+        <button onClick={() => scrollToSection('home')} className="text-white hover:text-blue-400 transition-colors">Home</button>
+        <button onClick={() => scrollToSection('features')} className="text-white hover:text-blue-400 transition-colors">Features</button>
+        <button onClick={() => scrollToSection('jobs')} className="text-white hover:text-blue-400 transition-colors">Jobs</button>
+        <button onClick={() => scrollToSection('contact')} className="text-white hover:text-blue-400 transition-colors">Contact</button>
+      </nav>
+      <Link href="/api/auth/signin">
+        <button className="flex items-center space-x-1 sm:space-x-2 rounded-full bg-blue-600 px-3 sm:px-4 py-1.5 sm:py-2 text-sm sm:text-base font-bold text-white transition-colors hover:bg-blue-700">
+          <LogIn className="h-3 w-3 sm:h-4 sm:w-4" />
+          <span className="truncate max-w-[100px] sm:max-w-none">
+            Login
+          </span>
+        </button>
+      </Link>
+    </div>
+  </header>
+)}
 
       {session ? (
-          <div className="container mx-auto px-4 py-20 relative z-20 flex items-center justify-center min-h-screen">
-            <div className="text-center">
-              <h2 className="text-3xl font-bold mb-4">Welcome to your HireStack dashboard, {session.user.name}!</h2>
-              <p className="text-xl">Here you can manage your job search, view applications, and more.</p>
-            </div>
+          <div >
           </div>
       ) : (
         <>
