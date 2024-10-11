@@ -16,22 +16,22 @@ services:
       - GITHUB_CLIENT_SECRET=${GITHUB_CLIENT_SECRET}
       - TWITTER_CLIENT_ID=${TWITTER_CLIENT_ID}
       - TWITTER_CLIENT_SECRET=${TWITTER_CLIENT_SECRET}
-    develop:
-      watch:
-        - path: ./package.json
-          action: rebuild
-        - path: ./next.config.js
-          action: rebuild
-        - path: ./ 
-          target: /app
-          ignore:
-            - node_modules/
-          action: sync
     depends_on:
       db:
         condition: service_healthy
     command: >
-      sh -c "npm run db:push && npm start"
+      sh -c "npm run db:push && npm run dev"
+    develop:
+      watch:
+        - path: ./
+          target: /app
+          action: sync
+          ignore:
+            - node_modules/
+        - path: ./package.json
+          action: rebuild
+        - path: ./next.config.js
+          action: rebuild
 
   db:
     image: postgres:latest
