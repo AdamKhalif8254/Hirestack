@@ -51,16 +51,6 @@ HireStack is designed for IT professionals seeking their next career opportunity
 
 ## Schema
 
-Our DynamoDB table schema is as follows:
-
-- Primary Key:
-  - Partition Key: `id` (String)
-  - Sort Key: `core_title` (String)
-
-- Global Secondary Indexes (GSIs):
-  - `city-index`: Partition Key is `city` (String)
-  - `province-index`: Partition Key is `province` (String)
-
 - Other Attributes:
   - `job_title` (String)
   - `description` (String)
@@ -78,8 +68,6 @@ Our DynamoDB table schema is as follows:
   - `remote_work` (Boolean or String)
 
 ## Job Card Specification
-
-When creating components, use the following data for job cards:
 
 - `id`: Unique identifier for the job
 - `job_title`: Full job title
