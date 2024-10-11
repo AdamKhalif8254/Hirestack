@@ -28,7 +28,10 @@ services:
             - node_modules/
           action: sync
     depends_on:
-      - db
+      db:
+        condition: service_healthy
+    command: >
+      sh -c "npm run db:push && npm start"
 
   db:
     image: postgres:latest
@@ -41,6 +44,11 @@ services:
       - "${DB_PORT:-5432}:5432"
     volumes:
       - postgres_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U postgres"]
+      interval: 5s
+      timeout: 5s
+      retries: 5
 
 volumes:
   postgres_data:

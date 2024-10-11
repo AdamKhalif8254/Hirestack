@@ -18,8 +18,8 @@
     "test": "jest",
     "vercel-env": "vercel env pull .env",
     "docker:build": "docker build --build-arg $(cat .env.local | xargs) -t hirestack-frontend .",
-    "docker:run": "docker run --env-file .env.local -p 3000:3000 hirestack-frontend",
-    "docker:dev": "docker run --env-file .env.local -p 3000:3000 -v $(pwd):/app hirestack-frontend npm run dev",
+    "docker:run": "docker run --env-file .env -p 3000:3000 hirestack-frontend",
+    "docker:dev": "docker run --env-file .env -p 3000:3000 -v $(pwd):/app hirestack-frontend npm run dev",
     "docker:stop": "docker stop $(docker ps -q --filter ancestor=hirestack-frontend)",
     "docker:compose:watch": "docker compose --env-file .env up --watch"
   },

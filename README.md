@@ -49,37 +49,80 @@ HireStack is designed for IT professionals seeking their next career opportunity
 
 ## Getting Started
 
-1. Clone the repository
+## Schema
+
+Our DynamoDB table schema is as follows:
+
+- Primary Key:
+  - Partition Key: `id` (String)
+  - Sort Key: `core_title` (String)
+
+- Global Secondary Indexes (GSIs):
+  - `city-index`: Partition Key is `city` (String)
+  - `province-index`: Partition Key is `province` (String)
+
+- Other Attributes:
+  - `job_title` (String)
+  - `description` (String)
+  - `province` (String)
+  - `city` (String)
+  - `company` (String)
+  - `salary` (String or Number)
+  - `job_type` (String)
+  - `posted_date` (String or Timestamp)
+  - `application_deadline` (String or Timestamp)
+  - `required_skills` (List of Strings)
+  - `experience_level` (String)
+  - `education_requirements` (String)
+  - `benefits` (String or List of Strings)
+  - `remote_work` (Boolean or String)
+
+## Job Card Specification
+
+When creating components, use the following data for job cards:
+
+- `id`: Unique identifier for the job
+- `job_title`: Full job title
+- `company`: Company name
+- `city`: City of the job location
+- `province`: Province of the job location
+- `salary`: Salary information (if available)
+- `job_type`: Type of employment (e.g., full-time, part-time)
+- `posted_date`: Date when the job was posted
+- `remote_work`: Indication if remote work is possible
+
+Example:
+
+```typescript
+interface JobCard {
+  id: string;
+  job_title: string;
+  company: string;
+  city: string;
+  province: string;
+  salary?: string | number;
+  job_type: string;
+  posted_date: string;
+  remote_work: boolean | string;
+}
+```
+
+## Run front end 
+
+1. Clone the repository and add enviroment variables 
 
    ```bash
    git clone https://github.com/AdamKhalif8254/Hirestack.git
-   cd Hirestack
+   cd Hirestack/frontend
+   touch .env
+   
    ```
 
-2. Install dependencies
+2. Run Docker
 
    ```bash
-   npm install
+   npm run docker:compose:watch
    ```
-
-3. Set up environment variables
-
-   ```bash
-   npm install -g vercel
-   vercel login
-   vercel link
-   vercel env pull .env
-   ```
-
-4. Run the development server
-   ```bash
-   npm run dev
-   ```
-
-## Contributing
-
-We welcome contributions! Please see our [Contributing Guide](CONTRIBUTING.md) for details on how to get involved.
-
 ## Authors
 
 HireStack was created and is maintained by:
@@ -88,14 +131,3 @@ HireStack was created and is maintained by:
 - Ahmed El farra
 - Abdul.M Ali
 - Ammar Alzureiq
-
-## Contact
-
-<p align="center">
-  <a href="mailto:support@hirestack.com">
-    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email">
-  </a>
-  <a href="https://discord.gg/hirestack">
-    <img src="https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white" alt="Discord">
-  </a>
-</p>

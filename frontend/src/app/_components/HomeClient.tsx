@@ -171,7 +171,7 @@ export default function HomeClient({ session }: { session: Session | null }) {
             {/* Main Hero Content */}
             <div className="flex flex-col items-center justify-center flex-1">
               <h2 className="mb-6 text-5xl font-bold bg-gradient-to-r from-blue-400 to-green-400 bg-clip-text text-transparent">
-              Find Your Dream Developer Job in Real-Time Test
+              Find Your Dream Developer Job in Real-Time
               </h2>
               <p className="mb-8 max-w-2xl text-xl bg-gradient-to-r from-blue-200 to-green-200 bg-clip-text text-transparent">
                 HireStack aggregates job postings from top sites, providing real-time
