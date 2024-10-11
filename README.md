@@ -108,7 +108,7 @@ interface JobCard {
 
 2. Run Docker
 
-  For local development you can only size in with discord
+  For local development you can only sign in with discord
 
    ```bash
    npm run docker:compose:watch
