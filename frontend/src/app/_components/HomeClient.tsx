@@ -28,7 +28,7 @@ export default function HomeClient({ session }: { session: Session | null }) {
   
   useEffect(() => {
     if (session) {
-      router.push('/dashboard');
+      router.push('/dashboard/home');
     }
   }, [session, router]);
 
