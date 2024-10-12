@@ -51,7 +51,7 @@ HireStack is designed for IT professionals seeking their next career opportunity
 
 ## Schema
 
-- Other Attributes:
+- Data Fields
   - `job_title` (String)
   - `description` (String)
   - `province` (String)
