@@ -1,7 +1,7 @@
 annotated-types==0.7.0
 beautifulsoup4==4.12.3
-boto3==1.35.38
-botocore==1.35.38
+boto3==1.35.39
+botocore==1.35.39
 certifi==2024.8.30
 charset-normalizer==3.4.0
 idna==3.10
