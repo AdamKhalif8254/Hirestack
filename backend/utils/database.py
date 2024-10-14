@@ -31,7 +31,7 @@ class Database:
             self.table = self.dynamodb.Table(table_name)
         
         # Define text fields and keyword fields for search
-        self.text_fields = ['job_title', 'description']  # 'job_title' treated as text field now
+        self.text_fields = ['description']  # 'job_title' treated as text field now
         self.keyword_fields = ['province', 'city']  # Only province and city, no job_type or location
         
         # Create an instance of Index from minsearch
@@ -103,7 +103,6 @@ class Database:
             self.table = self.dynamodb.Table(self.table_name)
             print(f"Error creating table: {e}")
 
-
     def load_dataframe(self, df: pd.DataFrame):
         """
         Ingests a pandas DataFrame into the DynamoDB table.
@@ -143,16 +142,28 @@ class Database:
 
     def fit_search_index(self):
         """
-        Load all data from DynamoDB into the minsearch index.
+        Load all data from DynamoDB into the minsearch index, ensuring all text fields are valid strings.
         """
         docs = self.get_all_items()
-        
-        # Extract core job title and add it to each document
+
+        # Sanitize the documents
         for doc in docs:
-            if 'job_title' in doc:
-                doc['core_title'] = self.extract_core_job_title(doc['job_title'])
+            # Ensure that the text fields and keyword fields are not None
+            for field in self.text_fields + self.keyword_fields:
+                if field in doc:
+                    doc[field] = doc.get(field) or ""
+            
+            # Extract core job title and add it to each document if 'job_title' exists
+            # if 'job_title' in doc:
+            #     doc['core_title'] = self.extract_core_job_title(doc['job_title'])
+            # else:
+            #     doc['core_title'] = doc.get('core_title', "")
         
+        # Now fit the sanitized documents into the search index
+        print('not done')
         self.search_index.fit(docs)
+        print('done')
+
 
     def search_jobs(self, query, province=None, city=None, num_results=10):
         """
