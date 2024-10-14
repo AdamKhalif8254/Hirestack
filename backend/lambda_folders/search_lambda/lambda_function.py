@@ -33,7 +33,7 @@ def lambda_handler(event, context):
     # Perform the search using the `search_jobs` method from the Database class
     try:
         # Call the search_jobs method with optional filters for province and city
-        results = db.search_jobs(query=keyword, province=province, city=city, num_results=10)
+        results = db.search_jobs(query=keyword, province=province, city=city, num_results=50)
 
         # Return the search results in the response
         return {

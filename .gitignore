@@ -50,3 +50,7 @@ yarn-error.log*
 # backend (add more as needed)
 /backend/.venv
 /backend/utils/__pycache__
+/backend/lambda_folders/search_lambda/__pycache__
+/backend/lambda_folders/search_lambda/update_search.sh
+/backend/empty_db.sh
+/backend/update_ingestion.sh

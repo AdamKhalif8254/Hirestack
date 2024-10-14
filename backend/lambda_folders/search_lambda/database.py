@@ -31,8 +31,8 @@ class Database:
             self.table = self.dynamodb.Table(table_name)
         
         # Define text fields and keyword fields for search
-        self.text_fields = ['description']  # 'job_title' treated as text field now
-        self.keyword_fields = ['province', 'city']  # Only province and city, no job_type or location
+        self.text_fields = ['title', 'core_title', 'description']  
+        self.keyword_fields = ['province', 'city']
         
         # Create an instance of Index from minsearch
         self.search_index = Index(text_fields=self.text_fields, keyword_fields=self.keyword_fields)
