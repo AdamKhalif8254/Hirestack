@@ -107,7 +107,7 @@ class DataFrameProcessor:
 
         for core_title in core_titles:
             if re.search(core_title, job_title_lower):
-                return core_title.capitalize()
+                return core_title
 
         return job_title
 

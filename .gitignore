@@ -48,8 +48,9 @@ yarn-error.log*
 .env*.local
 
 # backend (add more as needed)
-/backend/node_modules
-/backend/.env
 /backend/.venv
-/backend/__pycache__
 /backend/utils/__pycache__
+/backend/lambda_folders/search_lambda/__pycache__
+/backend/lambda_folders/search_lambda/update_search.sh
+/backend/empty_db.sh
+/backend/update_ingestion.sh

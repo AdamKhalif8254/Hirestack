@@ -31,8 +31,8 @@ class Database:
             self.table = self.dynamodb.Table(table_name)
         
         # Define text fields and keyword fields for search
-        self.text_fields = ['description']  # 'job_title' treated as text field now
-        self.keyword_fields = ['province', 'city']  # Only province and city, no job_type or location
+        self.text_fields = ['title', 'core_title', 'description']  
+        self.keyword_fields = ['province', 'city']
         
         # Create an instance of Index from minsearch
         self.search_index = Index(text_fields=self.text_fields, keyword_fields=self.keyword_fields)
@@ -103,6 +103,19 @@ class Database:
             self.table = self.dynamodb.Table(self.table_name)
             print(f"Error creating table: {e}")
 
+    def extract_core_job_title(self, job_title):
+        """
+        Extracts the core job title from the full job title string.
+        """
+        core_titles = ['developer', 'engineer', 'data scientist', 'designer', 'manager', 'analyst']
+        job_title_lower = job_title.lower()
+
+        for core_title in core_titles:
+            if re.search(core_title, job_title_lower):
+                return core_title
+
+        return job_title
+
     def load_dataframe(self, df: pd.DataFrame):
         """
         Ingests a pandas DataFrame into the DynamoDB table.
@@ -154,15 +167,13 @@ class Database:
                     doc[field] = doc.get(field) or ""
             
             # Extract core job title and add it to each document if 'job_title' exists
-            # if 'job_title' in doc:
-            #     doc['core_title'] = self.extract_core_job_title(doc['job_title'])
-            # else:
-            #     doc['core_title'] = doc.get('core_title', "")
+            if 'job_title' in doc:
+                doc['core_title'] = self.extract_core_job_title(doc['job_title'])
+            else:
+                doc['core_title'] = doc.get('core_title', "")
         
         # Now fit the sanitized documents into the search index
-        print('not done')
         self.search_index.fit(docs)
-        print('done')
 
 
     def search_jobs(self, query, province=None, city=None, num_results=10):
