@@ -160,9 +160,7 @@ class Database:
             #     doc['core_title'] = doc.get('core_title', "")
         
         # Now fit the sanitized documents into the search index
-        print('not done')
         self.search_index.fit(docs)
-        print('done')
 
 
     def search_jobs(self, query, province=None, city=None, num_results=10):

@@ -2,6 +2,8 @@ import numpy as np
 import pandas as pd
 import scipy
 import tls_client
+import boto3
+import pickle
 from utils import scrape
 from utils import database
 from utils import processor
@@ -43,6 +45,23 @@ def lambda_handler(event, context):
 
         # Load the DataFrame into DynamoDB
         db.load_dataframe(df)
+
+        db.fit_search_index()
+        s3_client = boto3.client('s3')
+
+        try:
+            # Serialize the index object to bytes using pickle
+            serialized_index = pickle.dumps(db.search_index)
+
+            # Upload the serialized object to S3
+            s3_client.put_object(
+                Bucket='hirestack-search-index',
+                Key='index.pkl',
+                Body=serialized_index
+            )
+            print("Index successfully stored in S3.")
+        except Exception as e:
+            print(f"Error while storing index in S3: {str(e)}")
 
         return {
             "statusCode": 200,

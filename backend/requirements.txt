@@ -9,8 +9,10 @@ jmespath==1.0.1
 joblib==1.4.2
 markdownify==0.11.6
 minsearch==0.0.2
+nump==5.5.5.5
 numpy==1.26.3
 pandas==2.2.3
+pickle-mixin==1.0.2
 pydantic==2.9.2
 pydantic_core==2.23.4
 python-dateutil==2.9.0.post0
