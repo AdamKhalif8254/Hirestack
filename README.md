@@ -93,6 +93,36 @@ interface JobCard {
   posted_date: string;
   remote_work: boolean | string;
 }
+
+// Examples
+
+let url = https://yrzq6ukjo8.execute-api.ca-central-1.amazonaws.com/dev?keyword=developer&province=ON&city=Toronto
+
+[
+  	null
+company_url_direct	null
+location	"Toronto, ON, Canada"
+interval	null
+currency	null
+company_url	null
+job_url_direct	null
+is_remote	null
+site	"zip_recruiter"
+city	"Toronto"
+company	"Scotiabank"
+company_num_employees	null
+logo_photo_url	null
+company_addresses	null
+province	"ON"
+date_posted	"2024-10-10"
+core_title	"developer"
+max_amount	null
+description	"As a **Software** **Deve…ogy domain and your ..."
+id	"MJBPorgaP1FFanvZfIuZOQ"
+job_type	null
+job_url	"https://www.ziprecruiter…k=MJBPorgaP1FFanvZfIuZOQ"
+title
+]
 ```
 
 ## Run front end 
