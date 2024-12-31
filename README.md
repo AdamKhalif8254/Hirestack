@@ -16,10 +16,6 @@
   <a href="#about">About</a> •
   <a href="#key-features">Key Features</a> •
   <a href="#tech-stack">Tech Stack</a> •
-  <a href="#getting-started">Getting Started</a> •
-  <a href="#contributing">Contributing</a> •
-  <a href="#license">License</a> •
-  <a href="#contact">Contact</a>
 </p>
 
 ---
