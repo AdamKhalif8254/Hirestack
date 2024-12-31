@@ -1,43 +1,83 @@
-import React from 'react';
-import SearchClient from '../../_components/SearchClient';
-import JobCard from '../../_components/JobCard';
+"use client";
 
+import React, { useState, useEffect } from "react";
+import SearchClient from "../../_components/SearchClient";
+import JobCard from "../../_components/JobCard";
+import { marked } from "marked";
+import JobCardSkeleton from "../../_components/JobCardSkeleton";
 
-
-function getJobs() {
-  // Fetch jobs from your API or database
-  // This is just a placeholder
-  return [
-    {
-      id: '1',
-      job_title: 'Software Engineer',
-      company: 'Tech Co',
-      city: 'Toronto',
-      province: 'ON',
-      salary: '100,000 - 130,000 CAD',
-      job_type: 'Full-time',
-      posted_date: '2023-05-01T00:00:00Z',
-      remote_work: true,
-    },
-    // ... more jobs
-  ];
+// ... existing Job interface can be reused ...
+interface Job {
+  id: string;
+  title: string;
+  company: string;
+  location: string;
+  city: string;
+  province: string;
+  date_posted: string;
+  description: string;
+  job_url: string;
+  site: string;
 }
 
 export default function SearchPage() {
-    const jobs = getJobs();
+  const [jobs, setJobs] = useState<Job[]>([]);
+  const [loading, setLoading] = useState(true);
+  const [error, setError] = useState<string | null>(null);
+  const [searchKeyword, setSearchKeyword] = useState("developer");
+
+  const handleSearch = (keyword: string) => {
+    setLoading(true);
+    setSearchKeyword(keyword);
+  };
+
+  useEffect(() => {
+    const fetchJobs = async () => {
+      try {
+        const encodedKeyword = encodeURIComponent(searchKeyword);
+        const response = await fetch(`/api/jobs?keyword=${encodedKeyword}`);
+        if (!response.ok) {
+          throw new Error("Failed to fetch jobs");
+        }
+        const data = (await response.json()) as Job[];
+        const processedJobs = await Promise.all(
+          data.map(async (job) => ({
+            ...job,
+            description:
+              (await marked(job.description)).substring(0, 300) + "...",
+          })),
+        );
+        setJobs(processedJobs);
+      } catch (err) {
+        console.error("Fetch error details:", err);
+        setError(err instanceof Error ? err.message : "Failed to fetch jobs");
+      } finally {
+        setLoading(false);
+      }
+    };
+
+    void fetchJobs();
+  }, [searchKeyword]);
 
   return (
     <div className="container mx-auto px-4 py-8">
-      <SearchClient />
-      <>
-            {/* <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-        {jobs.map((job) => (
-          <JobCard key={job.id} {...job} />
-        ))}
-      </div> */}
+      <SearchClient onSearch={handleSearch} />
 
-      </>
-      
+      {loading ? (
+        <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
+          {Array.from({ length: 6 }).map((_, index) => (
+            <JobCardSkeleton key={index} />
+          ))}
+        </div>
+      ) : error ? (
+        <div className="text-center text-red-400">{error}</div>
+      ) : (
+        <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
+          {jobs.map((job) => (
+            <JobCard key={job.id} {...job} />
+          ))}
+        </div>
+      )}
     </div>
   );
 }

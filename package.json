@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "@types/dompurify": "^3.0.5",
+    "dompurify": "^3.2.3",
+    "marked": "^15.0.4"
+  }
+}
