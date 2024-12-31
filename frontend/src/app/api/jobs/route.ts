@@ -15,7 +15,7 @@ interface JobListing {
 
 export async function GET(request: Request) {
   const { searchParams } = new URL(request.url);
-  const keyword = searchParams.get("keyword") ?? "developer";
+  const keyword = searchParams.get("keyword") ?? "jobs";
   const province = searchParams.get("province");
   const city = searchParams.get("city");
 
@@ -27,7 +27,7 @@ export async function GET(request: Request) {
     });
 
     const response = await fetch(
-      `https://yrzq6ukjo8.execute-api.ca-central-1.amazonaws.com/dev?${queryParams}`,
+      `https://yrzq6ukjo8.execute-api.ca-central-1.amazonaws.com/dev?${queryParams}&province=ON`,
       {
         headers: {
           "Content-Type": "application/json",

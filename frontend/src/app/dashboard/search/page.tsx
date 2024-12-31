@@ -6,7 +6,6 @@ import JobCard from "../../_components/JobCard";
 import { marked } from "marked";
 import JobCardSkeleton from "../../_components/JobCardSkeleton";
 
-// ... existing Job interface can be reused ...
 interface Job {
   id: string;
   title: string;
@@ -63,21 +62,26 @@ export default function SearchPage() {
     <div className="container mx-auto px-4 py-8">
       <SearchClient onSearch={handleSearch} />
 
-      {loading ? (
-        <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
-          {Array.from({ length: 6 }).map((_, index) => (
-            <JobCardSkeleton key={index} />
-          ))}
-        </div>
-      ) : error ? (
-        <div className="text-center text-red-400">{error}</div>
-      ) : (
-        <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
-          {jobs.map((job) => (
-            <JobCard key={job.id} {...job} />
-          ))}
-        </div>
-      )}
+      <div className="mt-12">
+        <h2 className="mb-6 text-2xl font-semibold text-white">
+          Search Results
+        </h2>
+        {loading ? (
+          <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
+            {Array.from({ length: 6 }).map((_, index) => (
+              <JobCardSkeleton key={index} />
+            ))}
+          </div>
+        ) : error ? (
+          <div className="text-center text-red-400">{error}</div>
+        ) : (
+          <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
+            {jobs.map((job) => (
+              <JobCard key={job.id} {...job} />
+            ))}
+          </div>
+        )}
+      </div>
     </div>
   );
 }
